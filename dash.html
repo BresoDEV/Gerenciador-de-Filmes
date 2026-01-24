@@ -580,7 +580,7 @@
                     const rangeParagrafo = document.getElementById('rangeParagrafo')
 
                     //-----------------------------------------------
-                    var porcentagem = (estimateusage / 100) * estimateQuota
+                    var porcentagem = (estimateusage / estimateQuota) * 100
 
                     console.log('------------------');
                     console.log(estimateQuota / 1000000000);
@@ -603,8 +603,8 @@
                             <td><b>${estimateQuota}</b></td>
                         </tr>
                         <tr>
-                            <td>Porcentagem</td>
-                            <td><b>${porcentagem}</b></td>
+                            <td>Porcentagem de Armazenamento usado</td>
+                            <td><b>${(porcentagem * 100).toFixed(2) + "%"}</b></td>
                         </tr>
                     
                     </table>    
