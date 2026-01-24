@@ -110,6 +110,14 @@
     #Observacoes{
       height: 30px;
     }
+
+    table,td,td,th{
+      border: 1px solid white;
+      font-size: 15px;
+    }
+    table{
+      width: 90vw;
+    }
         </style>
     </head>
     <body>
@@ -161,9 +169,10 @@
             <center>
                 <br>
                 <br>
-                <button id="evalDEV" class="btn-criar" style="padding:10px;border-radius: 5px;">Executar Codigo</button>
-                <button id="obterDB" class="btn-criar" style="padding:10px;border-radius: 5px;">Obter DB</button>
-                <button id="copiarDB" class="btn-criar" style="padding:10px;border-radius: 5px;">Copiar codigo</button>
+                <button id="evalDEV" class="btn-criar" style="padding:5px;border-radius: 5px;">Executar Codigo</button>
+                <button id="obterDB" class="btn-criar" style="padding:5px;border-radius: 5px;">Obter DB</button>
+                <button id="copiarDB" class="btn-criar" style="padding:5px;border-radius: 5px;">Copiar codigo</button>
+                <button id="gerarPlanilha" class="btn-criar" style="padding:5px;border-radius: 5px;">Gerar Planilha</button>
                 <br>
                 <br>
                 <textarea
@@ -174,6 +183,10 @@
                 ></textarea>
                 <br>
                 <script>
+
+      document.getElementById('gerarPlanilha').addEventListener('click',()=>{
+        SQL_gerarPlanilha() 
+      })
 
       document.getElementById('obterDB').addEventListener('click',()=>{
         SQL_getAllItens() 

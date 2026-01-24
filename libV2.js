@@ -76,6 +76,34 @@ function SQL_getAllItens() {
     };
 }
 
+function SQL_gerarPlanilha() {
+    const trans = db.transaction([storeName], "readonly");
+    const store = trans.objectStore(storeName);
+    const req = store.openCursor();
+    let output = "<table><tr><th>Nome</th><th>Capa</th><th>Estado</th><th>Obs</th></tr>";
+    req.onsuccess = function (event) {
+        const cursor = event.target.result;
+        if (cursor) {
+
+            var valores = cursor.value.valor.split('|');
+
+            output +=   `<tr>
+                            <td>${cursor.value.id}</td>
+                            <td><a href="${valores[0]}">Ver capa</a></td>
+                            <td>${valores[2]}</td>
+                            <td>${valores[1]}</td>
+                        </tr>`;
+            
+            
+            //output += `SQL_setItem("${cursor.value.id}", "${cursor.value.valor}");\n`;
+            cursor.continue();
+        } else {
+            output += "</table>";
+            document.getElementById('menuDEV').innerHTML = output
+        }
+    };
+}
+
 
 function SQL_deleteAll() {
     const trans = db.transaction([storeName], "readwrite");
