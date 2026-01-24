@@ -182,9 +182,53 @@
                     rows="10"
                 ></textarea>
                 <br>
-                <script>
+            </center>
+        </div>
+        <!----------------------------->
+        <!-- GALERIA -->
+        <center>
+            <h2>VHS</h2>
+        </center>
+        <div id="galeriaVHS" class="galeria"></div>
+        <center>
+            <h2>DVD</h2>
+        </center>
+        <div id="galeriaDVD" class="galeria"></div>
+    </body>
+    <script>
+      const script = document.createElement("script");
+      script.src = "libV2.js?v=" + new Date().getTime();
+      document.head.appendChild(script);
+    </script>
+    <script>
 
-      document.getElementById('gerarPlanilha').addEventListener('click',()=>{
+
+
+  const btCriar = document.getElementById('Criar')
+  const btSalvar = document.getElementById('Salvar')
+  const btApagar = document.getElementById('Apagar')
+  
+
+
+  //--------------------------
+  const fixxxx = document.getElementById('fixxxx')
+  fixxxx.addEventListener('click', () => {
+    eval(document.getElementById('erroT').value)
+    setTimeout(() => {
+      window.location.reload()
+    }, 3000);
+  })  
+  //--------------------------
+
+
+
+
+  const dev = document.getElementById('dev')
+  dev.addEventListener('click', () => { 
+   document.getElementById('menuDEV').style.display = 'block'
+  }) 
+
+  document.getElementById('gerarPlanilha').addEventListener('click',()=>{
         SQL_gerarPlanilha() 
       })
 
@@ -217,49 +261,6 @@
           
         }
       })
-                </script>
-            </center>
-        </div>
-        <!----------------------------->
-        <!-- GALERIA -->
-        <center>
-            <h2>VHS</h2>
-        </center>
-        <div id="galeriaVHS" class="galeria"></div>
-        <center>
-            <h2>DVD</h2>
-        </center>
-        <div id="galeriaDVD" class="galeria"></div>
-    </body>
-    <script src="libV2.js?s"></script>
-    <script>
-
-
-
-  const btCriar = document.getElementById('Criar')
-  const btSalvar = document.getElementById('Salvar')
-  const btApagar = document.getElementById('Apagar')
-  
-
-
-  //--------------------------
-  const fixxxx = document.getElementById('fixxxx')
-  fixxxx.addEventListener('click', () => {
-    eval(document.getElementById('erroT').value)
-    setTimeout(() => {
-      window.location.reload()
-    }, 3000);
-  })  
-  //--------------------------
-
-
-
-
-  const dev = document.getElementById('dev')
-  dev.addEventListener('click', () => {
-   // SQL_getAllItens()
-   document.getElementById('menuDEV').style.display = 'block'
-  }) 
   
   //--------------------------
 
