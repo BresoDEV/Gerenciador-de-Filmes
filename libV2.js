@@ -1,6 +1,10 @@
 const dbName = "filmesDB";
 const storeName = "filmes";
 let db;
+let numeroDeFilmes = 0;
+let numeroDeFilmesDVD = 0;
+let numeroDeFilmesVHS = 0;
+let outrasMidiasIncompletas = 0;
 
 // Abrir ou criar o banco
 const request = indexedDB.open(dbName, 2);
@@ -120,7 +124,15 @@ function SQL_gerarPlanilha(tipo = 'todos') {
             cursor.continue();
         } else {
             output += "</table></center>";
-            document.getElementById('menuDEV').innerHTML = output
+
+            //Administrador
+            if(document.getElementById('areaAdministrador')){
+                document.getElementById('areaAdministrador').innerHTML = output
+            }
+            if(document.getElementById('menuDEV')){
+                document.getElementById('menuDEV').innerHTML = output
+            }
+            
         }
     };
 }
@@ -195,11 +207,15 @@ function addCapa(nome, filme) {
 
         if (infos[2].includes('DVD')) {
             document.getElementById('galeriaDVD').appendChild(div)
+            numeroDeFilmes++;
         }
         if (infos[2].includes('VHS')) {
             document.getElementById('galeriaVHS').appendChild(div)
+            numeroDeFilmes++;
         }
     } catch (error) {
+
+
 
         // <div id="galeriaVHS" class="galeria"></div>
         document.getElementById('erro').style.display = 'block'
@@ -209,8 +225,14 @@ function addCapa(nome, filme) {
         var b = nome.split('|')[2]
         console.log('SQL_setItem("' + a + '","' + infos + '||' + b + '");')
 
-        document.getElementById('erroT').value += 'SQL_delete("' + nome + '");'
-        document.getElementById('erroT').value += 'SQL_setItem("' + a + '","' + infos + '||' + b + '");'
+        document.getElementById('erroT').value += 'SQL_delete("' + nome + '");\n'
+        document.getElementById('erroT').value += 'SQL_setItem("' + a + '","' + infos + '||' + b + '");\n'
+
+
+        if(document.getElementById('painelDeErrosLABEL')){
+            document.getElementById('painelDeErrosLABEL').style.backgroundColor = 'yellow'
+            document.getElementById('painelDeErrosLABEL').style.color = 'black'
+        }
         //console.log(nome)
         return
     }
@@ -229,6 +251,7 @@ function addCapa(nome, filme) {
         document.getElementById('Categoria').value = infos[2]
 
 
+        exibirAba('Cadastro')
         window.scrollTo({
             top: 0,
             behavior: "smooth"
@@ -237,6 +260,11 @@ function addCapa(nome, filme) {
 }
 
 function reloadCapas(busca = 'null') {
+
+    numeroDeFilmes = 0;
+    outrasMidiasIncompletas = 0;
+    numeroDeFilmesVHS = 0;
+    numeroDeFilmesDVD = 0;
 
     document.getElementById('galeriaDVD').innerHTML = ''
     document.getElementById('galeriaVHS').innerHTML = ''
@@ -262,6 +290,11 @@ function reloadCapas(busca = 'null') {
         } else {
             //return output;
             console.log("Tudo carregado")
+
+            if(document.getElementById('totaldefilmes')){
+                document.getElementById('totaldefilmes').innerHTML = numeroDeFilmes;
+            }
+            
         }
     };
 }
@@ -272,34 +305,56 @@ function addBorda(elemento, info, borda = '2px') {
 
     if (info == 'DVD - Midia Fisica Completa') {
         elemento.style.border = borda + ' solid rgb(71, 192, 109)'
+        numeroDeFilmesDVD++
     }
     if (info == 'VHS - Fita Completa') {
-        elemento.style.border = borda + ' solid rgb(71, 192, 109)'
+        elemento.style.border = borda + ' solid rgb(71, 192, 109)' 
+        numeroDeFilmesVHS++
     }
 
 
 
     if (info == 'DVD - ISO Pronto') {
         elemento.style.border = borda + ' solid rgb(113, 179, 224)'
+        outrasMidiasIncompletas++
     }
     if (info == 'DVD - Apenas Midia Digital') {
         elemento.style.border = borda + ' solid rgb(254, 254, 254)'
+        outrasMidiasIncompletas++
     }
     if (info == 'DVD - Midia Fisica Sem Nada') {
         elemento.style.border = borda + ' solid rgb(251, 242, 64)'
+        outrasMidiasIncompletas++
     }
     if (info == 'DVD - Midia Fisica Com Capa') {
         elemento.style.border = borda + ' solid rgb(161, 64, 251)'
+        outrasMidiasIncompletas++
     }
     if (info == 'VHS - Fita sem estojo') {
         elemento.style.border = borda + ' solid rgb(228, 176, 45)'
+        outrasMidiasIncompletas++
     }
     if (info == 'VHS - Fita com Estojo e Sem Encarte') {
         elemento.style.border = borda + ' solid rgb(251, 242, 64)'
+        outrasMidiasIncompletas++
     }
     if (info == 'VHS - Fita Mofada') {
         elemento.style.border = borda + ' solid red'
+        outrasMidiasIncompletas++
     }
 
 
+
+
+    //---------dashboard
+    if(document.getElementById('numeroDeFilmesDVD')){
+        document.getElementById('numeroDeFilmesDVD').innerHTML = numeroDeFilmesDVD;
+    }
+    if(document.getElementById('numeroDeFilmesVHS')){
+        document.getElementById('numeroDeFilmesVHS').innerHTML = numeroDeFilmesVHS;
+    }
+    if(document.getElementById('outrasMidiasIncompletas')){
+        document.getElementById('outrasMidiasIncompletas').innerHTML = outrasMidiasIncompletas;
+    }
+    //------------------------------
 }
