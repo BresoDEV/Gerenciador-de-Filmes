@@ -276,22 +276,30 @@
          /*****************************************************************************************/
         </style>
     </head>
+
+    <script>
+        const script = document.createElement("script");
+        script.src = "libV2.js?v=" + new Date().getTime();
+        document.head.appendChild(script);
+       </script>
+
+
     <body>
         <!-- Sidebar -->
         <div class="sidebar" id="sidebar">
             <h1>Collector</h1>
-            <a onclick="exibirAba('Cadastro');liparcampos();">Cadastro de Midias</a>
+            <a onclick="exibirAba('Cadastro');limparcampos();">Cadastro de Midias</a>
             <a onclick="exibirAba('FilmesDVD')">Filmes DVD</a>
             <a onclick="exibirAba('FilmesVHS')">Filmes VHS</a>
             <a onclick="exibirAba('Administrador')">Administrador</a> 
             <a onclick="exibirAba('PainelErros')" id="painelDeErrosLABEL">Painel de Erros</a> 
         </div>
         <script>
-            function liparcampos(){
+            function limparcampos(){
                 document.getElementById('Observacoes').value=""
-                            document.getElementById('Capa').value=""
-                            document.getElementById('Nome').value=""
-                            document.getElementById('Categoria').value=""
+                document.getElementById('Capa').value=""
+                document.getElementById('Nome').value=""
+                document.getElementById('Categoria').value=""
             }
         </script>
 
@@ -302,7 +310,7 @@
                     Home / Filmes / Sistema Collector
                 </div>
                 <div class="controls">
-                    <button onclick="toggleTheme()">🌗</button>
+                    <!--<button onclick="toggleTheme()">🌗</button>-->
                 </div>
             </div>
             <div class="header">
@@ -523,8 +531,13 @@
             <!------------------------------------------------------------------------------->
             <section id="Administrador" class="section">
                 <center>
+                    
                     <br>
                     <br>
+                    <p id="rangeParagrafo"></p>
+                    <br>
+                    <br>
+
                     <button id="evalDEV" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;">Executar Codigo</button>
                     <button id="obterDB" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;">Obter DB</button>
                     <button id="copiarDB" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;">Copiar codigo</button>
@@ -549,7 +562,55 @@
                     <br>
                 </center>
             </section>
+            <style>
+                b{
+                    color: #61be3e;
+                }
+                .tabelaMenor{
+                    width: 50%;
+                    text-align: center  ;
+                }
+                .tabelaMenor td{
+                    padding: 5px;
+                }
+            </style>
             <script>
+
+                setTimeout(() => {  
+                    const rangeParagrafo = document.getElementById('rangeParagrafo')
+
+                    //-----------------------------------------------
+                    var porcentagem = (estimateusage / 100) * estimateQuota
+
+                    console.log('------------------');
+                    console.log(estimateQuota / 1000000000);
+                    console.log();
+                    //------------------------------------------------
+
+
+
+                    rangeParagrafo.innerHTML = `
+                    <table class="tabelaMenor">
+                        <tr>
+                            <th colspan="2">Informações do IndexedDB</th>
+                        </tr>
+                        <tr>
+                            <td>Usado</td>
+                            <td><b>${estimateusage}</b></td>
+                        </tr>
+                        <tr>
+                            <td>Máximo</td>
+                            <td><b>${estimateQuota}</b></td>
+                        </tr>
+                        <tr>
+                            <td>Porcentagem</td>
+                            <td><b>${porcentagem}</b></td>
+                        </tr>
+                    
+                    </table>    
+                    `
+                }, 3000);
+
                 document.getElementById('obterDB').addEventListener('click',()=>{
                     document.getElementById('areaAdministrador').style.display = 'none'
                     document.getElementById('devTextarea').style.display = 'block'
@@ -683,11 +744,7 @@
                 © 2025 – Collector by BresoDEV
             </div>
         </div>
-        <script>
-         const script = document.createElement("script");
-         script.src = "libV2.js?v=" + new Date().getTime();
-         document.head.appendChild(script);
-        </script>
+     
         <script>
          //-----------abas
          

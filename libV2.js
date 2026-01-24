@@ -168,7 +168,12 @@ function SQL_id_Exist(id) {
 }
 
 
+var estimateusage = 0;
+var estimateQuota = 0;
+
 navigator.storage.estimate().then(estimate => {
+    estimateusage = estimate.usage;
+    estimateQuota = estimate.quota;
     console.log(`\n\nIndexedDB: \nUsado: ${estimate.usage}\nMáximo: ${estimate.quota}`)
     //
 });
