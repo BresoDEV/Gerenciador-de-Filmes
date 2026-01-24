@@ -172,7 +172,11 @@
                 <button id="evalDEV" class="btn-criar" style="padding:5px;border-radius: 5px;">Executar Codigo</button>
                 <button id="obterDB" class="btn-criar" style="padding:5px;border-radius: 5px;">Obter DB</button>
                 <button id="copiarDB" class="btn-criar" style="padding:5px;border-radius: 5px;">Copiar codigo</button>
-                <button id="gerarPlanilha" class="btn-criar" style="padding:5px;border-radius: 5px;">Gerar Planilha</button>
+                <br>
+                <br>
+                <button id="gerarPlanilha" class="btn-criar" style="padding:5px;border-radius: 5px;">Gerar Planilha Completa</button>
+                <button id="gerarPlanilhaDVD" class="btn-criar" style="padding:5px;border-radius: 5px;">Gerar Planilha DVD</button>
+                <button id="gerarPlanilhaVHS" class="btn-criar" style="padding:5px;border-radius: 5px;">Gerar Planilha VHS</button>
                 <br>
                 <br>
                 <textarea
@@ -226,10 +230,20 @@
   const dev = document.getElementById('dev')
   dev.addEventListener('click', () => { 
    document.getElementById('menuDEV').style.display = 'block'
+
+   document.getElementById('galeriaVHS').style.display = 'none'
+   document.getElementById('galeriaDVD').style.display = 'none'
+
   }) 
 
   document.getElementById('gerarPlanilha').addEventListener('click',()=>{
         SQL_gerarPlanilha() 
+      })
+  document.getElementById('gerarPlanilhaDVD').addEventListener('click',()=>{
+        SQL_gerarPlanilha('DVD') 
+      })
+  document.getElementById('gerarPlanilhaVHS').addEventListener('click',()=>{
+        SQL_gerarPlanilha('VHS') 
       })
 
       document.getElementById('obterDB').addEventListener('click',()=>{
