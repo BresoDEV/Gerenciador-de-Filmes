@@ -71,13 +71,7 @@ function SQL_getAllItens() {
             output += `SQL_setItem("${cursor.value.id}", "${cursor.value.valor}");\n`;
             cursor.continue();
         } else {
-            document.getElementById('galeriaVHS').innerHTML = `
-
-            <div>
-              <textarea>${output}</textarea>
-            </div>
-    
-            `
+            document.getElementById('devTextarea').value = output
         }
     };
 }

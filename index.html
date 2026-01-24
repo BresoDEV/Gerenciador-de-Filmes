@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Galeria de Filmes</title>
-  <style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Galeria de Filmes</title>
+        <style>
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -111,68 +110,116 @@
     #Observacoes{
       height: 30px;
     }
-  </style>
-</head>
+        </style>
+    </head>
+    <body>
+        <br>
+        <div id="dev" style="height:10px;background-color: #666;"></div>
+        <br>
+        <!-- TOPO / CADASTRO -->
+        <div class="topo">
+            <input id="Nome" type="text" placeholder="Nome do filme">
+            <input id="Capa" type="text" placeholder="Capa do filme">
+            <select id="Categoria">
+                <option>DVD - Apenas Midia Digital</option>
+                <option>DVD - ISO Pronto</option>
+                <option>DVD - Midia Fisica Sem Nada</option>
+                <option>DVD - Midia Fisica Com Capa</option>
+                <option>DVD - Midia Fisica Completa</option>
+                <option>VHS - Fita sem estojo</option>
+                <option>VHS - Fita com Estojo e Sem Encarte</option>
+                <option>VHS - Fita Completa</option>
+                <option>VHS - Fita Mofada</option>
+            </select>
+            <input id="Observacoes" type="text" placeholder="Observações">
+            <div class="botoes">
+                <button id="Criar" class="btn-criar">Criar</button>
+                <button id="Salvar" class="btn-salvar">Salvar</button>
+                <button id="Apagar" class="btn-apagar">Apagar</button>
+            </div>
+            <hr>
+            <input id="Busca" type="text" placeholder="Buscar filme">
+        </div>
+        <!------Sessao que exibe erros para tratar----------------------->
+        <div id="erro" style="display:none">
+            <h2>Codigo pra corrigir um erro encontrado:</h2>
+            <br>
+            <button id="fixxxx" class="btn-criar">Executar correcao</button>
+            <br>
+            <br>
+            <textarea
+                name=""
+                id="erroT"
+                cols="30"
+                rows="10"
+            ></textarea>
+            <br>
+        </div>
+        <!------Menu DEV----------------------->
+        <!------style="display:none"----------------------->
+        <div id="menuDEV">
+            <center>
+                <br>
+                <br>
+                <button id="evalDEV" class="btn-criar" style="padding:10px;border-radius: 5px;">Executar Codigo</button>
+                <button id="obterDB" class="btn-criar" style="padding:10px;border-radius: 5px;">Obter DB</button>
+                <button id="copiarDB" class="btn-criar" style="padding:10px;border-radius: 5px;">Copiar codigo</button>
+                <br>
+                <br>
+                <textarea
+                    name=""
+                    id="devTextarea"
+                    cols="30"
+                    rows="10"
+                ></textarea>
+                <br>
+                <script>
 
-<body>
+      document.getElementById('obterDB').addEventListener('click',()=>{
+        SQL_getAllItens() 
+      })
 
-  <br>
-  <div id="dev" style="height:10px;background-color: #666;"></div>
-  <br>
-  <!-- TOPO / CADASTRO -->
-  <div class="topo">
-
-    <input id="Nome" type="text" placeholder="Nome do filme">
-    <input id="Capa" type="text" placeholder="Capa do filme">
-
-    <select id="Categoria">
-      <option>DVD - Apenas Midia Digital</option>
-      <option>DVD - ISO Pronto</option>
-      <option>DVD - Midia Fisica Sem Nada</option>
-      <option>DVD - Midia Fisica Com Capa</option>
-      <option>DVD - Midia Fisica Completa</option>
-      <option>VHS - Fita sem estojo</option>
-      <option>VHS - Fita com Estojo e Sem Encarte</option>
-      <option>VHS - Fita Completa</option>
-      <option>VHS - Fita Mofada</option>
-    </select>
-
-    <input id="Observacoes" type="text" placeholder="Observações">
-
-    <div class="botoes">
-      <button id="Criar" class="btn-criar">Criar</button>
-      <button id="Salvar" class="btn-salvar">Salvar</button>
-      <button id="Apagar" class="btn-apagar">Apagar</button>
-    </div>
-    <hr>
-    <input id="Busca" type="text" placeholder="Buscar filme">
-   
-  </div>
-
-  <!----------------------------->
-  <div id="erro" style="display:none">
-    <h2  >Codigo pra corrigir um erro encontrado:</h2><br>
-    <button id="fixxxx" class="btn-criar">Executar correcao</button><br><br>
-    <textarea name="" id="erroT" cols="30" rows="10" ></textarea><br>
-    
-  </div>
-<!----------------------------->
+      document.getElementById('copiarDB').addEventListener('click',()=>{
+        
+        const textarea = document.getElementById("devTextarea");
+  
+        navigator.clipboard.writeText(textarea.value)
+          .then(() => {
+            console.log("Texto copiado!");
+          })
+          .catch(err => {
+            console.error("Erro ao copiar:", err);
+          });
 
 
+      })
 
-
-  <!-- GALERIA -->
-  <center><h2>VHS</h2></center>
-  <div id="galeriaVHS" class="galeria">
-  </div>
-  <center><h2>DVD</h2></center>
-  <div id="galeriaDVD" class="galeria">
-  </div>
-
-</body>
-<script src="libV2.js?s"></script>
-
-<script>
+      document.getElementById('evalDEV').addEventListener('click',()=>{
+        try {
+          eval(document.getElementById('devTextarea').value)
+          setTimeout(() => {
+            window.location.reload()
+          }, 3000);
+        } catch (error) {
+          
+        }
+      })
+                </script>
+            </center>
+        </div>
+        <!----------------------------->
+        <!-- GALERIA -->
+        <center>
+            <h2>VHS</h2>
+        </center>
+        <div id="galeriaVHS" class="galeria"></div>
+        <center>
+            <h2>DVD</h2>
+        </center>
+        <div id="galeriaDVD" class="galeria"></div>
+    </body>
+    <script src="libV2.js?s"></script>
+    <script>
 
 
 
@@ -197,7 +244,8 @@
 
   const dev = document.getElementById('dev')
   dev.addEventListener('click', () => {
-    SQL_getAllItens()
+   // SQL_getAllItens()
+   document.getElementById('menuDEV').style.display = 'block'
   }) 
   
   //--------------------------
@@ -259,17 +307,5 @@
 
 
   })
-
-
-
-
-
-
-
-
-
-
-
-</script>
-
+    </script>
 </html>
