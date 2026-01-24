@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Filmes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #111;
+      color: #eee;
+    }
+
+    textarea {
+      width: 85vw;
+      border-radius: 3px;
+      background-color: #666;
+      height: 90vh;
+      color: #eee;
+    }
+     
+
+    /* TOPO */
+    .topo {
+      background-color: #1c1c1c;
+      padding: 15px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+      border-bottom: 2px solid #333;
+    }
+
+    .topo input,
+    .topo select {
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      background-color: #2b2b2b;
+      color: #fff;
+    }
+
+    .botoes {
+      display: flex;
+      gap: 10px;
+      margin-top: 5px;
+    }
+
+    .botoes button {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .btn-criar {
+      background-color: rgb(60, 113, 245);
+      color: #fff;
+    }
+
+    .btn-salvar {
+      background-color: #2e7d32;
+      color: #fff;
+    }
+
+    .btn-apagar {
+      background-color: #b71c1c;
+      color: rgb(254, 254, 254);
+    }
+
+    .botoes button:hover {
+      opacity: 0.85;
+    }
+
+    /* GALERIA */
+    .galeria {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+      gap: 15px;
+    }
+
+    .filme {
+      background-color: #1c1c1c;
+      border-radius: 3px;
+      overflow: hidden;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .filme:hover {
+      transform: scale(1.05);
+    }
+
+    .filme img {
+      width: 90%;
+      height: 150px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .filme span {
+      display: block;
+      padding: 6px;
+      font-size: 14px;
+    }
+    #Observacoes{
+      height: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <br>
+  <div id="dev" style="height:10px;background-color: #666;"></div>
+  <br>
+  <!-- TOPO / CADASTRO -->
+  <div class="topo">
+
+    <input id="Nome" type="text" placeholder="Nome do filme">
+    <input id="Capa" type="text" placeholder="Capa do filme">
+
+    <select id="Categoria">
+      <option>DVD - Apenas Midia Digital</option>
+      <option>DVD - ISO Pronto</option>
+      <option>DVD - Midia Fisica Sem Nada</option>
+      <option>DVD - Midia Fisica Com Capa</option>
+      <option>DVD - Midia Fisica Completa</option>
+      <option>VHS - Fita sem estojo</option>
+      <option>VHS - Fita com Estojo e Sem Encarte</option>
+      <option>VHS - Fita Completa</option>
+      <option>VHS - Fita Mofada</option>
+    </select>
+
+    <input id="Observacoes" type="text" placeholder="Observações">
+
+    <div class="botoes">
+      <button id="Criar" class="btn-criar">Criar</button>
+      <button id="Salvar" class="btn-salvar">Salvar</button>
+      <button id="Apagar" class="btn-apagar">Apagar</button>
+    </div>
+    <hr>
+    <input id="Busca" type="text" placeholder="Buscar filme">
+   
+  </div>
+
+  <!----------------------------->
+  <div id="erro" style="display:none">
+    <h2  >Codigo pra corrigir um erro encontrado:</h2><br>
+    <button id="fixxxx" class="btn-criar">Executar correcao</button><br><br>
+    <textarea name="" id="erroT" cols="30" rows="10" ></textarea><br>
+    
+  </div>
+<!----------------------------->
+
+
+
+
+  <!-- GALERIA -->
+  <center><h2>VHS</h2></center>
+  <div id="galeriaVHS" class="galeria">
+  </div>
+  <center><h2>DVD</h2></center>
+  <div id="galeriaDVD" class="galeria">
+  </div>
+
+</body>
+<script src="libV2.js?s"></script>
+
+<script>
+
+
+
+  const btCriar = document.getElementById('Criar')
+  const btSalvar = document.getElementById('Salvar')
+  const btApagar = document.getElementById('Apagar')
+  
+
+
+  //--------------------------
+  const fixxxx = document.getElementById('fixxxx')
+  fixxxx.addEventListener('click', () => {
+    eval(document.getElementById('erroT').value)
+    setTimeout(() => {
+      window.location.reload()
+    }, 3000);
+  })  
+  //--------------------------
+
+
+
+
+  const dev = document.getElementById('dev')
+  dev.addEventListener('click', () => {
+    SQL_getAllItens()
+  }) 
+  
+  //--------------------------
+
+
+
+  const Busca = document.getElementById('Busca') 
+  Busca.addEventListener('input', () => {
+
+    reloadCapas(Busca.value)
+
+  })
+  ///===============================
+
+
+  btCriar.addEventListener('click', () => {
+
+    const Observacoes = document.getElementById('Observacoes').value
+    const Capadofilme = document.getElementById('Capa').value
+    const Nomedofilme = document.getElementById('Nome').value
+    const Categoria = document.getElementById('Categoria').value
+
+
+
+    SQL_setItem(Nomedofilme, Capadofilme + '|' + Observacoes + '|' + Categoria)
+    addCapa(Nomedofilme, Capadofilme + '|' + Observacoes + '|' + Categoria)
+
+
+    setTimeout(() => {
+    document.getElementById('Observacoes').value=""
+    document.getElementById('Capa').value=""
+    document.getElementById('Nome').value=""
+    document.getElementById('Categoria').value=""
+    }, 3000);
+  })
+
+
+  btApagar.addEventListener('click', () => {
+
+    const Nomedofilme = document.getElementById('Nome').value
+
+    SQL_delete(Nomedofilme)
+    reloadCapas()
+
+  })
+
+
+  btSalvar.addEventListener('click', () => {
+
+    const Observacoes = document.getElementById('Observacoes').value
+    const Capadofilme = document.getElementById('Capa').value
+    const Nomedofilme = document.getElementById('Nome').value
+    const Categoria = document.getElementById('Categoria').value
+
+
+    SQL_updateItem(Nomedofilme, Capadofilme + '|' + Observacoes + '|' + Categoria)
+
+    //addCapa(Nomedofilme + '|' + Capadofilme + '|' + Observacoes + '|' + Categoria)
+
+
+  })
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</html>
