@@ -236,6 +236,7 @@
     .btn-criar {
       background-color: rgb(60, 113, 245);
       color: #fff;
+      cursor: pointer;
     }
 
     .btn-salvar {
@@ -279,12 +280,21 @@
         <!-- Sidebar -->
         <div class="sidebar" id="sidebar">
             <h1>Collector</h1>
-            <a onclick="exibirAba('Cadastro')">Cadastro de Midias</a>
+            <a onclick="exibirAba('Cadastro');liparcampos();">Cadastro de Midias</a>
             <a onclick="exibirAba('FilmesDVD')">Filmes DVD</a>
             <a onclick="exibirAba('FilmesVHS')">Filmes VHS</a>
             <a onclick="exibirAba('Administrador')">Administrador</a> 
             <a onclick="exibirAba('PainelErros')" id="painelDeErrosLABEL">Painel de Erros</a> 
         </div>
+        <script>
+            function liparcampos(){
+                document.getElementById('Observacoes').value=""
+                            document.getElementById('Capa').value=""
+                            document.getElementById('Nome').value=""
+                            document.getElementById('Categoria').value=""
+            }
+        </script>
+
         <!-- Main -->
         <div class="main">
             <div class="topbar">
@@ -515,16 +525,18 @@
                 <center>
                     <br>
                     <br>
-                    <button id="evalDEV" class="btn-criar" style="padding:5px;border-radius: 5px;">Executar Codigo</button>
-                    <button id="obterDB" class="btn-criar" style="padding:5px;border-radius: 5px;">Obter DB</button>
-                    <button id="copiarDB" class="btn-criar" style="padding:5px;border-radius: 5px;">Copiar codigo</button>
+                    <button id="evalDEV" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;">Executar Codigo</button>
+                    <button id="obterDB" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;">Obter DB</button>
+                    <button id="copiarDB" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;">Copiar codigo</button>
                     <br>
                     <br>
-                    <button id="gerarPlanilha" class="btn-criar" style="padding:5px;border-radius: 5px;">Gerar Planilha Completa</button>
-                    <button id="gerarPlanilhaDVD" class="btn-criar" style="padding:5px;border-radius: 5px;">Gerar Planilha DVD</button>
-                    <button id="gerarPlanilhaVHS" class="btn-criar" style="padding:5px;border-radius: 5px;">Gerar Planilha VHS</button>
+                    <button id="gerarPlanilha" class="btn-criar"    style="border:none;padding:10px;border-radius: 5px;">Gerar Planilha Completa</button>
+                    <button id="gerarPlanilhaDVD" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;">Gerar Planilha DVD</button>
+                    <button id="gerarPlanilhaVHS" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;">Gerar Planilha VHS</button>
                     <br>
                     <br>
+                    <button id="apagarDB" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;background-color: red;">Apagar Banco de Dados</button>
+                    <br><br>
                     <div id="areaAdministrador">
                         
                     </div>
@@ -542,7 +554,7 @@
                     document.getElementById('areaAdministrador').style.display = 'none'
                     document.getElementById('devTextarea').style.display = 'block'
                     SQL_getAllItens() 
-                })
+                }) 
                 
                 document.getElementById('copiarDB').addEventListener('click',()=>{
                     const textarea = document.getElementById("devTextarea");
@@ -586,69 +598,79 @@
                     
                     }
                 })
+                document.getElementById('apagarDB').addEventListener('click',()=>{
+                    try {
+                        SQL_deleteAll();
+                        setTimeout(() => {
+                            window.location.reload()
+                        }, 3000);
+                    } catch (error) {
+                    
+                    }
+                })
 
             </script>
 
 
 <!------------------------------------------------------------------------------->
-<style>
-    #fixxxx{
-        padding: 10px;
-        border-radius: 5px;
-        background-color: #2e7d32;
-        border: none;
-        cursor: pointer;
-    }
-</style>
-<section id="PainelErros" class="section">
-    <div id="erro" style="display:none">
-        <h2>Codigo pra corrigir um erro encontrado:</h2>
-        <br>
-        <center>
-            <button id="fixxxx" class="btn-criar">Executar correcao</button>
-        </center>
-        <br>
-        <br>
-        <textarea
-            name=""
-            id="erroT"
-            cols="30"
-            rows="10"
-        ></textarea>
-        <br>
-    </div>
-</section>
-<script>
-
-    const fixxxx = document.getElementById('fixxxx')
-    fixxxx.addEventListener('click', () => {
-
-        try {
-            eval(document.getElementById('erroT').value)
-            alert('Correcao aplicada com sucesso.\nAguarde que vou recarregar tudo!!')
-            setTimeout(() => {
-                window.location.reload()
-            }, 3000);
-        } catch (error) {
-            alert(error)
-        }
-    })
-
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            <style>
+                #fixxxx{
+                    padding: 10px;
+                    border-radius: 5px;
+                    background-color: #2e7d32;
+                    border: none;
+                    cursor: pointer;
+                }
+            </style>
+            <section id="PainelErros" class="section">
+                <div id="erro" style="display:none">
+                    <h2>Codigo pra corrigir um erro encontrado:</h2>
+                    <br>
+                    <center>
+                        <button id="fixxxx" class="btn-criar">Executar correcao</button>
+                    </center>
+                    <br>
+                    <br>
+                    <textarea
+                        name=""
+                        id="erroT"
+                        cols="30"
+                        rows="10"
+                    ></textarea>
+                    <br>
+                </div>
+            </section>
+            <script>
+            
+                const fixxxx = document.getElementById('fixxxx')
+                fixxxx.addEventListener('click', () => {
+                
+                    try {
+                        eval(document.getElementById('erroT').value)
+                        alert('Correcao aplicada com sucesso.\nAguarde que vou recarregar tudo!!')
+                        setTimeout(() => {
+                            window.location.reload()
+                        }, 3000);
+                    } catch (error) {
+                        alert(error)
+                    }
+                })
+            
+            </script>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
 
 
 
