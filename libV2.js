@@ -257,6 +257,10 @@ function addCapa(nome, filme) {
 
 
         exibirAba('Cadastro')
+
+
+        document.getElementById('imgPreview').src = infos[0]
+        
         window.scrollTo({
             top: 0,
             behavior: "smooth"
@@ -264,7 +268,7 @@ function addCapa(nome, filme) {
     })
 }
 
-function reloadCapas(busca = 'null') {
+function reloadCapas(busca = 'null',filtro = 'null') {
 
     numeroDeFilmes = 0;
     outrasMidiasIncompletas = 0;
@@ -284,7 +288,14 @@ function reloadCapas(busca = 'null') {
 
             if (busca !== 'null') {
                 if (cursor.value.id.toLowerCase().includes(busca.toLowerCase())) {
-                    addCapa(cursor.value.id, cursor.value.valor)
+                    
+                    if (filtro !== 'null') {
+                        if (cursor.value.valor.toLowerCase().includes(filtro.toLowerCase())) {
+                            addCapa(cursor.value.id, cursor.value.valor)
+                        }
+                    }else{
+                        addCapa(cursor.value.id, cursor.value.valor)
+                    }
                 }
             }
             else {

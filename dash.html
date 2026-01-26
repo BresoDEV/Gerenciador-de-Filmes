@@ -360,14 +360,33 @@
                     <h2>VHS</h2>
                     <div class="topo">
                         <input id="BuscaVHS" type="text" placeholder="Buscar filme">
+
+                        <select id="CategoriaVHS">
+                            <option>DVD - Apenas Midia Digital</option>
+                            <option>DVD - ISO Pronto</option>
+                            <option>DVD - Midia Fisica Sem Nada</option>
+                            <option>DVD - Midia Fisica Com Capa</option>
+                            <option>DVD - Midia Fisica Completa</option>
+                            <option>VHS - Fita sem estojo</option>
+                            <option>VHS - Fita com Estojo e Sem Encarte</option>
+                            <option>VHS - Fita Completa</option>
+                            <option>VHS - Fita Mofada</option>
+                        </select>
+
                     </div>
                 </center>
                 <div id="galeriaVHS" class="galeria"></div>
             </section>
             <script>
                 const BuscaVHS = document.getElementById('BuscaVHS') 
+                const CategoriaVHS = document.getElementById('CategoriaVHS') 
+                
                 BuscaVHS.addEventListener('input', () => {  
                     reloadCapas(BuscaVHS.value)
+                    
+                }) 
+                CategoriaVHS.addEventListener('input', () => {  
+                    reloadCapas(BuscaVHS.value,CategoriaVHS.value)
                     
                 })
             </script>
@@ -401,15 +420,34 @@
                     <h2>DVD</h2>
                     <div class="topo">
                         <input id="BuscaDVD" type="text" placeholder="Buscar filme">
+
+                        <select id="CategoriaDVD">
+                            <option>DVD - Apenas Midia Digital</option>
+                            <option>DVD - ISO Pronto</option>
+                            <option>DVD - Midia Fisica Sem Nada</option>
+                            <option>DVD - Midia Fisica Com Capa</option>
+                            <option>DVD - Midia Fisica Completa</option>
+                            <option>VHS - Fita sem estojo</option>
+                            <option>VHS - Fita com Estojo e Sem Encarte</option>
+                            <option>VHS - Fita Completa</option>
+                            <option>VHS - Fita Mofada</option>
+                        </select>
                     </div>
                 </center>
                 <div id="galeriaDVD" class="galeria"></div>
             </section>
             <script>
                 const BuscaDVD = document.getElementById('BuscaDVD') 
+                const CategoriaDVD = document.getElementById('CategoriaDVD') 
+
                 BuscaDVD.addEventListener('input', () => {
                     
                     reloadCapas(BuscaDVD.value)
+
+                })
+                CategoriaDVD.addEventListener('input', () => {
+                    
+                    reloadCapas(BuscaDVD.value,CategoriaDVD.value)
 
                 })
             </script>
@@ -437,6 +475,8 @@
             <!------------------------------------------------------------------------------->
             <section id="Cadastro" class="section">
                 <div class="topo">
+
+                   
                     <input id="Nome" type="text" placeholder="Nome do filme">
                     <input id="Capa" type="text" placeholder="Capa do filme">
                     <select id="Categoria">
@@ -456,12 +496,27 @@
                         <button id="Salvar" class="btn-salvar">Salvar</button>
                         <button id="Apagar" class="btn-apagar">Apagar</button>
                     </div>
+
+                    <center>
+                        <img style="width: 25%;" id="imgPreview" src="" alt="">
+                    
+                    </center>
                 </div>
             </section>
             <script>
+                
                 const btCriar = document.getElementById('Criar')
                 const btSalvar = document.getElementById('Salvar')
                 const btApagar = document.getElementById('Apagar')
+
+                const Capa = document.getElementById('Capa')
+                const imgPreview = document.getElementById('imgPreview')
+                
+                Capa.addEventListener('input', () => {
+                    imgPreview.src = Capa.value
+                })  
+                
+
 
                 btCriar.addEventListener('click', () => {
 
