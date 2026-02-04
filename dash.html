@@ -3,7 +3,7 @@
  
     <head>
         <meta charset="UTF-8">
-        <title>Collector – Sistema V1</title>
+        <title>Collector – Sistema V2</title>
         <style>
          :root {
          --bg: #0b1220;
@@ -458,16 +458,14 @@
 
                 setInterval(() => {
                     if(imgPreview.src !== ""){
-                        document.getElementById('classbaixarImagemCapa').style.display = "block"
+                        document.getElementById('imgPreview').style.display = "block"
                     }
                     else{
-                        document.getElementById('classbaixarImagemCapa').style.display = "none"
+                        document.getElementById('imgPreview').style.display = "none"
                     }
 
                     //--------------------
-                    if(document.getElementById('Nome').value == ""){
-                        imgPreview.src = ""
-                    }
+                    
                 }, 1);
                 
 
@@ -542,10 +540,7 @@
                     <br>
                     <br>
                     <button id="apagarDB" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;background-color: red;">Apagar Banco de Dados</button>
-                    <br>
-                    <br>
-                    <button id="BaixarImagens" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;background-color: rgb(0, 187, 255);">Baixar Imagens</button>
-                    <br>
+                      <br>
                     <br>
                     <div id="areaAdministrador"></div>
                     <textarea
@@ -571,53 +566,7 @@
             </style>
             <script>
 
-
-                async function baixarTodas() {
-                  const zip = new JSZip();
-                  const imagens = [...document.querySelectorAll("img")]
-                    .map(img => img.src)
-                    .filter(src => !src.includes("github"));
-                
-                  let contador = 0;
-                
-                  for (const src of imagens) {
-                    try {
-                      const response = await fetch(src);
-                      const blob = await response.blob();
-                    
-                      // tenta manter a extensão original
-                      const extensao = src.split('.').pop().split('?')[0];
-                      zip.file(`imagem_${contador}.${extensao}`, blob);
-                      contador++;
-                    } catch (e) {
-                      console.warn("Erro ao baixar:", src);
-                    }
-                  }
-              
-                  const conteudoZip = await zip.generateAsync({ type: "blob" });
-              
-                  const a = document.createElement("a");
-                  a.href = URL.createObjectURL(conteudoZip);
-                  a.download = "capas.zip";
-                  a.click();
-                }
-
-                document.getElementById('BaixarImagens').addEventListener('click',()=>{
-                   
-                    [...document.images].forEach((img, i) => {
-
-                        if(img.src.includes("github")){
-                            return;
-                        }
-                        const a = document.createElement("a");
-                        a.href = img.src;
-                        a.download = `img_${i}.jpg`;
-                        a.click();
-                        
-                    }) ;
-
-                })
-
+ 
 
 
 
