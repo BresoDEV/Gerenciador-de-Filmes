@@ -772,3 +772,28 @@ SQL_setItem("Sonâmbulos (1992)", "https://br.web.img2.acsta.net/c_310_420/pictu
 SQL_setItem("Um Domingo Qualquer (1999)", "https://br.web.img3.acsta.net/medias/nmedia/18/87/30/60/19874131.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
 SQL_setItem("Uma Vida de Rei (1989)", "https://media.fstatic.com/WwLrzDSX4Vm09rm7TsP93taq_uY=/350x525/smart/filters:format(webp)/media/movies/covers/2012/04/a790d4e79226900fbf6c4bcb32cf6c43.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
 SQL_setItem("Vestida Para Matar ", "https://cinema10.com.br/upload/featuredImage.php?url=https%3A%2F%2Fcinema10.com.br%2Fupload%2Ffilmes%2Ffilmes_5023_Vestida.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
+
+SQL_setItem("10 Coisas que Eu Odeio em Você (1999)", "https://br.web.img3.acsta.net/medias/nmedia/18/90/67/52/20107757.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
+SQL_setItem("A Louca Corrida do Ouro (1984)", "https://dw0jruhdg6fis.cloudfront.net/producao/23888766/G/louca_corrida_do_ouro.jpg|Nivel de mofo: 4|VHS - Fita Mofada");
+SQL_setItem("A Odisséia (1997)", "https://br.web.img2.acsta.net/medias/nmedia/18/90/37/97/20093845.jpg||VHS - Fita Completa");
+SQL_setItem("A Pequena Sereia II - O Retorno Para o Mar (2000)", "https://br.web.img2.acsta.net/pictures/14/07/24/16/11/283831.jpg|Nivel de Mofo: 1  (está sem capa)|VHS - Fita Mofada");
+SQL_setItem("A Rainha da Neve (1995)", "https://m.media-amazon.com/images/M/MV5BMjM3MTM5MWYtY2NmYS00YmNiLTg2NDgtNTE1NTdhNGNiYWVmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg||VHS - Fita Completa");
+SQL_setItem("Austin Powers: 000 Um Agente Nada Discreto (1997)", "https://media.fstatic.com/NU_FGMmX86kDlp70HqJaLgY1ZFw=/322x478/smart/filters:format(webp)/media/movies/covers/2013/04/03af8967ace26b52a5709e0e678a54e3_3.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
+SQL_setItem("Cabeças Voadoras (1994)", "https://m.media-amazon.com/images/M/MV5BMjgxNzhhMGItOGUzNS00NDBkLWFkM2EtNDYxYzZlMjJlZWE2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg||VHS - Fita Completa");
+SQL_setItem("Distração Fatal", "https://m.media-amazon.com/images/S/pv-target-images/1c861934004282ef1ce74355ea5a2b9e9a59f42a9a1a3b9b9f84f4908bb382e5.jpg|Nivel de Mofo: 2|VHS - Fita Mofada");
+SQL_setItem("Dublê da Morte (1993)", "https://www.acervocine.com.br/wp-content/uploads/2024/12/Captura-de-tela-2024-08-02-161951.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
+SQL_setItem("Duelo de Titãs (1959)", "https://m.media-amazon.com/images/M/MV5BZGJmYTQ2MmMtN2U2Zi00ODE4LWIyN2QtOGRmOTQ1NTVjYTZmXkEyXkFqcGc@._V1_.jpg|Nivel de Mofo: 2|VHS - Fita Mofada");
+SQL_setItem("Duro de Espiar (1996)", "https://br.web.img3.acsta.net/pictures/15/10/20/15/19/329557.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
+SQL_setItem("Jumanji (1995) ", "https://media.fstatic.com/_mx0urzxHeQj2i5H487hp06fwvk=/350x525/smart/filters:format(webp)/media/movies/covers/2011/06/5ab37e139092276376aefad487759cfe.jpg||VHS - Fita Completa");
+SQL_setItem("O Holandês Voador (1995)", "https://m.media-amazon.com/images/M/MV5BODZkNmRiZDItNzQ1Zi00NjA0LTgwYTAtY2JiZmU4YjVmZDcwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
+SQL_setItem("O Show de Truman (1998)", "https://br.web.img3.acsta.net/medias/nmedia/18/93/64/37/20269376.jpg|Nivel de mofo: 1|VHS - Fita Mofada");
+SQL_setItem("O Suspeito da Rua Arlington (1999)", "https://br.web.img3.acsta.net/pictures/14/06/12/17/17/249435.jpg||VHS - Fita Completa");
+SQL_setItem("Olivier, Olivier", "https://upload.wikimedia.org/wikipedia/en/b/b3/Olivier%2C_Olivier_film_poster.jpg||VHS - Fita Completa");
+SQL_setItem("Pecados do Desejo (1993)", "https://m.media-amazon.com/images/M/MV5BMTM4NDc1MTQ2M15BMl5BanBnXkFtZTYwODA2MjU5._V1_.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
+SQL_setItem("Reação em Cadeia (1996)", "https://m.media-amazon.com/images/M/MV5BZGQwYTVlMzQtN2NlZC00MTU3LWE4YzMtNjM0ODhjOTBlNGIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg||VHS - Fita Completa");
+SQL_setItem("Sonâmbulos (1992)", "https://br.web.img2.acsta.net/c_310_420/pictures/23/07/11/15/55/2519160.jpg|Nivel de Mofo: 5|VHS - Fita Mofada");
+SQL_setItem("Todo Mundo em Pânico (2000)", "https://m.media-amazon.com/images/M/MV5BNTg0MDcxNmEtNDA5Yy00MDAyLWEzY2MtMzM4ZWMyNTUzN2Q4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
+SQL_setItem("Tortura Silenciosa (1993)", "https://br.web.img2.acsta.net/medias/nmedia/18/87/22/92/19873332.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
+SQL_setItem("Um Domingo Qualquer (1999)", "https://br.web.img3.acsta.net/medias/nmedia/18/87/30/60/19874131.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
+SQL_setItem("Uma Equipe Muito Especial", "https://m.media-amazon.com/images/S/pv-target-images/fc788b9905dac70b81a2ced0e19dee910368b77a3f25c37c761219b0a7c5eb1d.jpg|Nivel de Mofo: 3 |VHS - Fita Mofada");
+
