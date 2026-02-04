@@ -3,7 +3,7 @@
  
     <head>
         <meta charset="UTF-8">
-        <title>Collector – Sistema V2</title>
+        <title>Collector – Sistema V3</title>
         <style>
          :root {
          --bg: #0b1220;
@@ -457,11 +457,11 @@
 
 
                 setInterval(() => {
-                    if(imgPreview.src !== ""){
-                        document.getElementById('imgPreview').style.display = "block"
+                    if(Capa.value !== ""){
+                        document.getElementById('baixarImagemCapa').style.display = "block"
                     }
                     else{
-                        document.getElementById('imgPreview').style.display = "none"
+                        document.getElementById('baixarImagemCapa').style.display = "none"
                     }
 
                     //--------------------
