@@ -454,12 +454,19 @@
                     imgPreview.src = Capa.value
                 })  
 
+
+
                 setInterval(() => {
                     if(imgPreview.src !== ""){
                         document.getElementById('classbaixarImagemCapa').style.display = "block"
                     }
                     else{
                         document.getElementById('classbaixarImagemCapa').style.display = "none"
+                    }
+
+                    //--------------------
+                    if(document.getElementById('Nome').value == ""){
+                        imgPreview.src = ""
                     }
                 }, 1);
                 
