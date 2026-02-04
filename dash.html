@@ -435,7 +435,7 @@
                         >
                         <br>
                         
-                        <div class="botoes">
+                        <div class="botoes" id="classbaixarImagemCapa">
                             <button id="baixarImagemCapa" class="btn-salvar">Salvar Capa</button>
                         </div>
                     </center>
@@ -453,6 +453,15 @@
                 Capa.addEventListener('input', () => {
                     imgPreview.src = Capa.value
                 })  
+
+                setInterval(() => {
+                    if(imgPreview.src !== ""){
+                        document.getElementById('classbaixarImagemCapa').style.display = "none"
+                    }
+                    else{
+                        document.getElementById('classbaixarImagemCapa').style.display = "block"
+                    }
+                }, 1);
                 
 
                 document.getElementById('baixarImagemCapa').addEventListener('click',()=>{
