@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
     <head>
         <meta charset="UTF-8">
         <title>Collector – Sistema</title>
@@ -276,23 +277,22 @@
          /*****************************************************************************************/
         </style>
     </head>
-
     <script>
         const script = document.createElement("script");
         script.src = "libV2.js?v=" + new Date().getTime();
         document.head.appendChild(script);
-       </script>
-
-
+    </script>
     <body>
         <!-- Sidebar -->
         <div class="sidebar" id="sidebar">
-            <a href="dash.html"><h1>Collector</h1></a>
+            <a href="dash.html">
+                <h1>Collector</h1>
+            </a>
             <a onclick="exibirAba('Cadastro');limparcampos();">Cadastro de Midias</a>
             <a onclick="exibirAba('FilmesDVD')">Filmes DVD</a>
             <a onclick="exibirAba('FilmesVHS')">Filmes VHS</a>
-            <a onclick="exibirAba('Administrador')">Administrador</a> 
-            <a onclick="exibirAba('PainelErros')" id="painelDeErrosLABEL">Painel de Erros</a> 
+            <a onclick="exibirAba('Administrador')">Administrador</a>
+            <a onclick="exibirAba('PainelErros')" id="painelDeErrosLABEL">Painel de Erros</a>
         </div>
         <script>
             function limparcampos(){
@@ -302,7 +302,6 @@
                 document.getElementById('Categoria').value=""
             }
         </script>
-
         <!-- Main -->
         <div class="main">
             <div class="topbar">
@@ -310,8 +309,7 @@
                     Home / Filmes / Sistema Collector
                 </div>
                 <div class="controls">
-                    <!--<button onclick="toggleTheme()">🌗</button>-->
-                </div>
+                    <!--<button onclick="toggleTheme()">🌗</button>--></div>
             </div>
             <div class="header">
                 <h2>Dashboard</h2>
@@ -336,31 +334,12 @@
                     <h3 id="outrasMidiasIncompletas">0</h3>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <!------------------------------------------------------------------------------->
             <section id="FilmesVHS" class="section">
                 <center>
                     <h2>VHS</h2>
                     <div class="topo">
                         <input id="BuscaVHS" type="text" placeholder="Buscar filme">
-
                         <select id="CategoriaVHS">
                             <!--<option>DVD - Apenas Midia Digital</option>
                             <option>DVD - ISO Pronto</option>
@@ -372,7 +351,6 @@
                             <option>VHS - Fita Completa</option>
                             <option>VHS - Fita Mofada</option>
                         </select>
-
                     </div>
                 </center>
                 <div id="galeriaVHS" class="galeria"></div>
@@ -390,37 +368,12 @@
                     
                 })
             </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <!------------------------------------------------------------------------------->
             <section id="FilmesDVD" class="section">
                 <center>
                     <h2>DVD</h2>
                     <div class="topo">
                         <input id="BuscaDVD" type="text" placeholder="Buscar filme">
-
                         <select id="CategoriaDVD">
                             <option>DVD - Apenas Midia Digital</option>
                             <option>DVD - ISO Pronto</option>
@@ -451,32 +404,9 @@
 
                 })
             </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <!------------------------------------------------------------------------------->
             <section id="Cadastro" class="section">
                 <div class="topo">
-
-                   
                     <input id="Nome" type="text" placeholder="Nome do filme">
                     <input id="Capa" type="text" placeholder="Capa do filme (Link)">
                     <select id="Categoria">
@@ -496,10 +426,13 @@
                         <button id="Salvar" class="btn-salvar">Salvar</button>
                         <button id="Apagar" class="btn-apagar">Apagar</button>
                     </div>
-
                     <center>
-                        <img style="width: 25%;" id="imgPreview" src="" alt="">
-                    
+                        <img
+                            style="width: 25%;"
+                            id="imgPreview"
+                            src=""
+                            alt=""
+                        >
                     </center>
                 </div>
             </section>
@@ -559,55 +492,32 @@
 
 
                 })
-
             </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <!------------------------------------------------------------------------------->
             <section id="Administrador" class="section">
                 <center>
-                    
                     <br>
                     <br>
                     <p id="rangeParagrafo"></p>
                     <br>
                     <br>
-
                     <button id="evalDEV" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;">Executar Codigo</button>
                     <button id="obterDB" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;">Obter DB</button>
                     <button id="copiarDB" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;">Copiar codigo</button>
                     <br>
                     <br>
-                    <button id="gerarPlanilha" class="btn-criar"    style="border:none;padding:10px;border-radius: 5px;">Gerar Planilha Completa</button>
+                    <button id="gerarPlanilha" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;">Gerar Planilha Completa</button>
                     <button id="gerarPlanilhaDVD" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;">Gerar Planilha DVD</button>
                     <button id="gerarPlanilhaVHS" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;">Gerar Planilha VHS</button>
                     <br>
                     <br>
                     <button id="apagarDB" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;background-color: red;">Apagar Banco de Dados</button>
-                    <br><br>
-                    <div id="areaAdministrador">
-                        
-                    </div>
+                    <br>
+                    <br>
+                    <button id="BaixarImagens" class="btn-criar" style="border:none;padding:10px;border-radius: 5px;background-color: rgb(0, 187, 255);">Baixar Todas Imagens</button>
+                    <br>
+                    <br>
+                    <div id="areaAdministrador"></div>
                     <textarea
                         name=""
                         id="devTextarea"
@@ -630,6 +540,46 @@
                 }
             </style>
             <script>
+
+
+                async function baixarTodas() {
+                  const zip = new JSZip();
+                  const imagens = [...document.querySelectorAll("img")]
+                    .map(img => img.src)
+                    .filter(src => !src.includes("github"));
+                
+                  let contador = 0;
+                
+                  for (const src of imagens) {
+                    try {
+                      const response = await fetch(src);
+                      const blob = await response.blob();
+                    
+                      // tenta manter a extensão original
+                      const extensao = src.split('.').pop().split('?')[0];
+                      zip.file(`imagem_${contador}.${extensao}`, blob);
+                      contador++;
+                    } catch (e) {
+                      console.warn("Erro ao baixar:", src);
+                    }
+                  }
+              
+                  const conteudoZip = await zip.generateAsync({ type: "blob" });
+              
+                  const a = document.createElement("a");
+                  a.href = URL.createObjectURL(conteudoZip);
+                  a.download = "capas.zip";
+                  a.click();
+                }
+
+                document.getElementById('BaixarImagens').addEventListener('click',()=>{
+                   
+                    baixarTodas();
+                })
+
+
+
+
 
                 setTimeout(() => {  
                     const rangeParagrafo = document.getElementById('rangeParagrafo')
@@ -724,11 +674,8 @@
                     
                     }
                 })
-
             </script>
-
-
-<!------------------------------------------------------------------------------->
+            <!------------------------------------------------------------------------------->
             <style>
                 #fixxxx{
                     padding: 10px;
@@ -771,35 +718,12 @@
                         alert(error)
                     }
                 })
-            
             </script>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-
-
-
-
-
-
             <!------------------------------------------------------------------------------->
             <div class="footer">
                 © 2025 – Collector by BresoDEV
             </div>
         </div>
-     
         <script>
          //-----------abas
          
