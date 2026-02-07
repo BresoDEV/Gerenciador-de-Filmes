@@ -797,3 +797,23 @@ SQL_setItem("Tortura Silenciosa (1993)", "https://br.web.img2.acsta.net/medias/n
 SQL_setItem("Um Domingo Qualquer (1999)", "https://br.web.img3.acsta.net/medias/nmedia/18/87/30/60/19874131.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
 SQL_setItem("Uma Equipe Muito Especial", "https://m.media-amazon.com/images/S/pv-target-images/fc788b9905dac70b81a2ced0e19dee910368b77a3f25c37c761219b0a7c5eb1d.jpg|Nivel de Mofo: 3 |VHS - Fita Mofada");
 
+
+
+
+SQL_setItem("Busca Explosiva", "https://m.media-amazon.com/images/S/pv-target-images/7cf1c74f890b05d88ee7bbec33f3055aaf7451611c05262155d492badcb256b9.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
+SQL_setItem("Cyborg Cop II - O Pior Pesadelo (1994)", "https://media.fstatic.com/CJX0rTpPtnJQC2lge_7JTu_55NE=/350x525/smart/filters:format(webp)/media/movies/covers/2011/06/05c9fe0c451d65ccfd9e4aa003314867.jpg|Nivel de mofo: 1|VHS - Fita Mofada");
+SQL_setItem("Ferngully - As Aventuras de Zack e Crysta na Floresta Tropical", "https://media.fstatic.com/Z1MWZvSNenbNEBLznFidF3TEslY=/322x478/smart/filters:format(webp)/media/movies/covers/2018/07/vhs-ferngully-as-aventuras-de-zak-e-crysta-na-floresta-D_NQ_NP_956_HIAbXYL.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
+SQL_setItem("Mulher Incoveniente (Minissérie de televisão 1991)", "https://m.media-amazon.com/images/M/MV5BMjE3Njc0Mjc0OV5BMl5BanBnXkFtZTcwNzg2NjYyMQ@@._V1_QL75_UX190_CR0,21,190,281_.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
+SQL_setItem("O Agente Especial", "https://m.media-amazon.com/images/M/MV5BNmQ1OTI1MWYtYTY3NS00OGYwLWE0NTktYjhjOTVlN2RlZjNjXkEyXkFqcGc@._V1_QL75_UX190_CR0,30,190,281_.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
+SQL_setItem("O Corcunda de Notre Dame", "https://http2.mlstatic.com/D_NQ_NP_992890-MLB52027864943_102022-O.webp||VHS - Fita Completa");
+SQL_setItem("O Exterminador Ninja", "https://http2.mlstatic.com/D_NQ_NP_813325-MLB25429013497_032017-O.webp|Nivel de mofo: 1|VHS - Fita Mofada");
+SQL_setItem("O Maskara - Uma Mascara Quase Perfeita", "https://i.pinimg.com/236x/3b/24/8f/3b248f2b310da805977fec4e543f721d.jpg||VHS - Fita Completa");
+SQL_setItem("O Maskara Contra-ataca", "https://upload.wikimedia.org/wikipedia/pt/d/d5/O_mascara_desenho.jpg||VHS - Fita Completa");
+SQL_setItem("Rio de Sangue", "https://dw0jruhdg6fis.cloudfront.net/producao/23968376/G/rio_de_sangue.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
+SQL_setItem("Robocop: A Missão Final (1994)", "https://media.fstatic.com/L7YG3uIe6mZY98s4-6g5B48ApYE=/350x525/smart/filters:format(webp)/media/movies/covers/2014/09/robocop-a-missao-final_t64483.JPG|Nivel de mofo: 2|VHS - Fita Mofada");
+SQL_setItem("Ultraman", "https://http2.mlstatic.com/D_NQ_NP_461211-MLB20495521201_112015-O.webp|Nivel de mofo: 2|VHS - Fita Mofada");
+SQL_setItem("Vestida Para Matar (1980)", "https://http2.mlstatic.com/D_NQ_NP_955206-MLB85676409972_062025-O.webp|Nivel de mofo: 2|VHS - Fita Mofada");
+
+
+
+
