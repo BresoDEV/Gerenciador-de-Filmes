@@ -1,3 +1,4 @@
+SQL_setItem("10 Coisas que Eu Odeio em Você (1999)", "https://br.web.img3.acsta.net/medias/nmedia/18/90/67/52/20107757.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
 SQL_setItem("101 Dálmatas (1996) ", "https://m.media-amazon.com/images/M/MV5BZmYyOGJlZmMtYTBhZi00NjkxLThkYzctNTA2M2E3N2FiODYyXkEyXkFqcGc@._V1_.jpg||VHS - Fita Completa");
 SQL_setItem("120 Dias de Sodoma", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/120 Dias de Sodoma.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("60 Minutos Para Morrer - 2017", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/60 Minutos Para Morrer - 2017.jpg||DVD - Apenas Midia Digital");
@@ -35,7 +36,6 @@ SQL_setItem("A Entidade 2", "https://bresodev.github.io/Gerenciador-de-Filmes/ca
 SQL_setItem("A Epidemia - 2010", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Epidemia - 2010.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("A Espera de um Milagre", "https://br.web.img2.acsta.net/medias/nmedia/18/91/66/66/20156966.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("A Espera do Mal - 2005", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Espera do Mal - 2005.jpg||DVD - Apenas Midia Digital");
-SQL_setItem("A Experiência (1995)", "https://dcdn-us.mitiendanube.com/stores/174/533/products/filmeaexperienc1-2cc8566088356e869e15131772125571-640-0.webp|Nivel de mofo: 2|VHS - Fita Mofada");
 SQL_setItem("A Experiência - 1995", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Experiência - 1995.jpg||DVD - Midia Fisica Completa");
 SQL_setItem("A Experiência 2 (1998)", "https://m.media-amazon.com/images/S/pv-target-images/b426233bc4210b30290b009b850fab4a5921fd1b2ccecafeb301bbf1ac9ed8e2.jpg||VHS - Fita Completa");
 SQL_setItem("A Experiência 2 - 1998", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Experiência 2 - 1998.jpg||DVD - Apenas Midia Digital");
@@ -62,7 +62,7 @@ SQL_setItem("A Hora do Pesadelo 7", "https://bresodev.github.io/Gerenciador-de-F
 SQL_setItem("A Ilha do Dr. Moreau - 1996", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Ilha do Dr. Moreau - 1996.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("A Ilha dos Mortos", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Ilha dos Mortos.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("A Irmandade (2001)", "https://m.media-amazon.com/images/S/pv-target-images/41456bb774ea8b938b1b9914207a070b7d9c6d326b097f65a155a01a3a5342b1.png|Nivel de mofo: 4|VHS - Fita Mofada");
-SQL_setItem("A Lenda do Cavaleiro Sem Cabeça", "https://http2.mlstatic.com/D_888282-MLB49423010052_032022-C.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
+SQL_setItem("A Louca Corrida do Ouro (1984)", "https://dw0jruhdg6fis.cloudfront.net/producao/23888766/G/louca_corrida_do_ouro.jpg|Nivel de mofo: 4|VHS - Fita Mofada");
 SQL_setItem("A Luz Do Demonio", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Luz Do Demonio.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("A Maldicao de Samantha", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Maldicao de Samantha.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("A Maldição da Casa Winchester - 2018", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Maldição da Casa Winchester - 2018.jpg||DVD - Apenas Midia Digital");
@@ -89,8 +89,10 @@ SQL_setItem("A Noite dos Mortos Vivos - Re-Animação - 2012", "https://bresodev
 SQL_setItem("A Noite dos Mortos Vivos 3D - 2006", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Noite dos Mortos Vivos 3D - 2006.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("A Noiva de Frankenstein - 1935", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Noiva de Frankenstein - 1935.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("A Noiva do Re-Animator - 1989", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Noiva do Re-Animator - 1989.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("A Odisséia (1997)", "https://br.web.img2.acsta.net/medias/nmedia/18/90/37/97/20093845.jpg||VHS - Fita Completa");
 SQL_setItem("A Orfa", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Orfa.jpg||DVD - Midia Fisica Completa");
 SQL_setItem("A Orfa 2", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Orfa 2.jpg||DVD - Midia Fisica Sem Nada");
+SQL_setItem("A Pequena Sereia II - O Retorno Para o Mar (2000)", "https://br.web.img2.acsta.net/pictures/14/07/24/16/11/283831.jpg|Nivel de Mofo: 1  (está sem capa)|VHS - Fita Mofada");
 SQL_setItem("A Piramide", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Piramide.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("A Praga - 2006", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Praga - 2006.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("A Praga da Múmia - 1944", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Praga da Múmia - 1944.jpg||DVD - Midia Fisica Sem Nada");
@@ -101,6 +103,7 @@ SQL_setItem("A Profecia 4 - 1991", "https://bresodev.github.io/Gerenciador-de-Fi
 SQL_setItem("A Profecia 5 - 2006", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Profecia 5 - 2006.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("A Quadrilha da Fronteira", "https://m.media-amazon.com/images/I/71XzxiuWncL._AC_UF894,1000_QL80_.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
 SQL_setItem("A Queda 2022", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Queda 2022.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("A Rainha da Neve (1995)", "https://m.media-amazon.com/images/M/MV5BMjM3MTM5MWYtY2NmYS00YmNiLTg2NDgtNTE1NTdhNGNiYWVmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg||VHS - Fita Completa");
 SQL_setItem("A Substancia", "https://m.media-amazon.com/images/M/MV5BMWJkNjdmMzctZTk2YS00MDE1LWI0ZTEtNzc3OTEzNGJjZjE4XkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("A Tribo - 2008", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Tribo - 2008.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("A Tribo 2 - 2009", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Tribo 2 - 2009.jpg||DVD - Apenas Midia Digital");
@@ -154,6 +157,7 @@ SQL_setItem("Atividade Paranormal 6 Dimensao Fantasma", "https://bresodev.github
 SQL_setItem("Atividade Paranormal 7 Ente Próximo", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Atividade Paranormal 7 Ente Próximo.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Atividade Paranormal em Toquio", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Atividade Paranormal em Toquio.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Através da Sombra - 2015", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Através da Sombra - 2015.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("Austin Powers: 000 Um Agente Nada Discreto (1997)", "https://media.fstatic.com/NU_FGMmX86kDlp70HqJaLgY1ZFw=/322x478/smart/filters:format(webp)/media/movies/covers/2013/04/03af8967ace26b52a5709e0e678a54e3_3.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
 SQL_setItem("Aviso de Tempestade - 2007", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Aviso de Tempestade - 2007.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Baghead - A Bruxa dos Mortos", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Baghead - A Bruxa dos Mortos.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("Balada Para Satã - 1971", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Balada Para Satã - 1971.jpg||DVD - Apenas Midia Digital");
@@ -170,6 +174,8 @@ SQL_setItem("Brinquedos Diabólicos - 1992", "https://bresodev.github.io/Gerenci
 SQL_setItem("Bruxa de Blair 1", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Bruxa de Blair 1.jpg||DVD - Midia Fisica Completa");
 SQL_setItem("Bruxa de Blair 2", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Bruxa de Blair 2.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("Bruxas - 2009", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Bruxas - 2009.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("Busca Explosiva", "https://m.media-amazon.com/images/S/pv-target-images/7cf1c74f890b05d88ee7bbec33f3055aaf7451611c05262155d492badcb256b9.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
+SQL_setItem("Cabeças Voadoras (1994) ", "https://m.media-amazon.com/images/M/MV5BMjgxNzhhMGItOGUzNS00NDBkLWFkM2EtNDYxYzZlMjJlZWE2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg||VHS - Fita Completa");
 SQL_setItem("Cadaveres - 2006", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Cadaveres - 2006.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Cadaveres 2 - 2008", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Cadaveres 2 - 2008.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Cadillac Preto - 2003", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Cadillac Preto - 2003.jpg||DVD - Apenas Midia Digital");
@@ -205,7 +211,7 @@ SQL_setItem("Colheita Maldita 2009", "https://bresodev.github.io/Gerenciador-de-
 SQL_setItem("Colheita Maldita 3 - Colheita Urbana - 1995", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Colheita Maldita 3 - Colheita Urbana - 1995.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Colheita Maldita 4 - O Encontro- 1996", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Colheita Maldita 4 - O Encontro- 1996.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Colheita Maldita 5 - Campos do Terror - 1998", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Colheita Maldita 5 - Campos do Terror - 1998.jpg||DVD - Apenas Midia Digital");
-SQL_setItem("Colheita Maldita 5: Campos do Terror (1998) ", "https://bocadoinferno.com.br/wp-content/uploads/2015/09/Colheita-Maldita-5-1998-11.jpg|Nivel de mofo:4|VHS - Fita Mofada");
+SQL_setItem("Colheita Maldita 5: Campos do Terror (1998) ", "https://bocadoinferno.com.br/wp-content/uploads/2015/09/Colheita-Maldita-5-1998-11.jpg|Nivel de mofo:4 (foi limpa)|VHS - Fita Completa");
 SQL_setItem("Colheita Maldita 6 - 666 - Isaac Está de Volta - 1999", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Colheita Maldita 6 - 666 - Isaac Está de Volta - 1999.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Colheita Maldita 7 Revelacao - 2001", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Colheita Maldita 7 Revelacao - 2001.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Colheita Maldita 8 - Genesis - 2011", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Colheita Maldita 8 - Genesis - 2011.jpg||DVD - Apenas Midia Digital");
@@ -225,8 +231,9 @@ SQL_setItem("Cubo 2 - Hipercubo - 2002", "https://bresodev.github.io/Gerenciador
 SQL_setItem("Cubo Zero - 2004", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Cubo Zero - 2004.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Cujo - 1983", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Cujo - 1983.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Cut - Cenas de Horror - 2000", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Cut - Cenas de Horror - 2000.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("Cyborg Cop II - O Pior Pesadelo (1994)", "https://media.fstatic.com/CJX0rTpPtnJQC2lge_7JTu_55NE=/350x525/smart/filters:format(webp)/media/movies/covers/2011/06/05c9fe0c451d65ccfd9e4aa003314867.jpg|Nivel de mofo: 1|VHS - Fita Mofada");
 SQL_setItem("Cães Assassinos - 2006", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Cães Assassinos - 2006.jpg||DVD - Apenas Midia Digital");
-SQL_setItem("De Volta Para O Futuro Parte III", "https://m.media-amazon.com/images/S/pv-target-images/49b8bc77cdc92b3bbda5ffa921bccf5efb97a1ebfd26357cbfc57a9f4f50caee.jpg|Nivel de mofo: 4|VHS - Fita Mofada");
+SQL_setItem("De Volta Para O Futuro Parte III", "https://m.media-amazon.com/images/S/pv-target-images/49b8bc77cdc92b3bbda5ffa921bccf5efb97a1ebfd26357cbfc57a9f4f50caee.jpg|Nivel de mofo: 4 (foi limpa)|VHS - Fita Completa");
 SQL_setItem("Deixe-me Entrar", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Deixe-me Entrar.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Delírios De Um Anormal", "https://ingresso-a.akamaihd.net/prd/img/movie/delirios-de-um-anormal/f38c84ca-ca97-40d4-a59c-bb38db9c87a0.webp||DVD - Midia Fisica Sem Nada");
 SQL_setItem("Dennis  o Pimentinha (1993)", "https://m.media-amazon.com/images/M/MV5BNzkwMDc2MzMwMF5BMl5BanBnXkFtZTcwNDkwNzYxMQ@@._V1_.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
@@ -236,6 +243,7 @@ SQL_setItem("Devorador de Almas - 2006", "https://bresodev.github.io/Gerenciador
 SQL_setItem("Dezesseis Facadas", "https://m.media-amazon.com/images/M/MV5BYTBlNTg1OTktN2IxZi00MzMxLTg5ZDgtMTE3M2Q5Zjc2OWJjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("Dia dos Mortos", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Dia dos Mortos.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Dia dos Mortos - 1985", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Dia dos Mortos - 1985.jpg||DVD - Midia Fisica Sem Nada");
+SQL_setItem("Distração Fatal", "https://m.media-amazon.com/images/S/pv-target-images/1c861934004282ef1ce74355ea5a2b9e9a59f42a9a1a3b9b9f84f4908bb382e5.jpg|Nivel de Mofo: 2|VHS - Fita Mofada");
 SQL_setItem("Distúrbio - 2018", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Distúrbio - 2018.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Diário do Mortos - 2007", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Diário do Mortos - 2007.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Do Ffundo do Mar - Duplo", "https://boxloja-std-cdn-r2.minhaboxloja.com/lojas/a4ve/produtos/30241e94-8d7c-47a7-adc6-ccfa33747499.png|Nivel de mofo: 3|VHS - Fita Mofada");
@@ -249,6 +257,9 @@ SQL_setItem("Dracula 1931", "https://bresodev.github.io/Gerenciador-de-Filmes/ca
 SQL_setItem("Dragão Vermelho - 2002", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Dragão Vermelho - 2002.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("Drive-Thru - Fast Food Da Morte - 2007", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Drive-Thru - Fast Food Da Morte - 2007.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Drácula de Bram Stoker - 1992", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Drácula de Bram Stoker - 1992.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("Dublê da Morte (1993)", "https://www.acervocine.com.br/wp-content/uploads/2024/12/Captura-de-tela-2024-08-02-161951.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
+SQL_setItem("Duelo de Titãs (1959)", "https://m.media-amazon.com/images/M/MV5BZGJmYTQ2MmMtN2U2Zi00ODE4LWIyN2QtOGRmOTQ1NTVjYTZmXkEyXkFqcGc@._V1_.jpg|Nivel de Mofo: 2|VHS - Fita Mofada");
+SQL_setItem("Duro de Espiar (1996)", "https://br.web.img3.acsta.net/pictures/15/10/20/15/19/329557.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
 SQL_setItem("Elvira - A Rainha das Trevas - 1988", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Elvira - A Rainha das Trevas - 1988.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Elvira - As Loucas Aventuras de Elvira - 2001", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Elvira - As Loucas Aventuras de Elvira - 2001.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Encontro Com A Morte 1993", "https://m.media-amazon.com/images/M/MV5BNTQyOWFhMmYtODE4NS00MzlkLTk4ZDItMWI4ZmYwMTFkNDI2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg||VHS - Fita Completa");
@@ -271,7 +282,7 @@ SQL_setItem("Eu Ainda Sei o que Vocês Fizeram no Verão Passado (1998)", "https
 SQL_setItem("Eu Sei O Que Vocês Fizeram No Verão Passado - 1997", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Eu Sei O Que Vocês Fizeram No Verão Passado - 1997.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Eu Sempre Vou Saber o Que Vocês Fizeram no Verão Passado - 2006", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Eu Sempre Vou Saber o Que Vocês Fizeram no Verão Passado - 2006.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Eu vi o brilho da TV", "https://m.media-amazon.com/images/M/MV5BZWI1N2YzMTAtYjFhYy00NjMwLTk5MTEtNjYwZGQxMmQ2MWYwXkEyXkFqcGc@._V1_.jpg||DVD - Apenas Midia Digital");
-SQL_setItem("Eu, Eu Mesmo & Irene (2000)", "https://br.web.img2.acsta.net/pictures/210/163/21016330_20130627184045446.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
+SQL_setItem("Eu, Eu Mesmo & Irene (2000)", "https://br.web.img2.acsta.net/pictures/210/163/21016330_20130627184045446.jpg|Nivel de mofo: 5 (foi limpa)|VHS - Fita Completa");
 SQL_setItem("Evocando Espíritos 1 - 2009", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Evocando Espíritos 1 - 2009.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Experimentos Macabros 2022", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Experimentos Macabros 2022.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Faces do Medo - 2013", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Faces do Medo - 2013.jpg||DVD - Apenas Midia Digital");
@@ -282,7 +293,9 @@ SQL_setItem("Fantasma 2 - 1988", "https://bresodev.github.io/Gerenciador-de-Film
 SQL_setItem("Fantasma 3 - 1994", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Fantasma 3 - 1994.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Fantasma 4 - 1998", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Fantasma 4 - 1998.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Faça Ela Voltar - Bring Her Back", "https://m.media-amazon.com/images/M/MV5BZTlhYTk1ZTEtOWY3NC00NWQ5LTlkOTctNjQ3ZDYyZGE5ZWNlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg||DVD - Midia Fisica Sem Nada");
+SQL_setItem("Ferngully - As Aventuras de Zack e Crysta na Floresta Tropical", "https://media.fstatic.com/Z1MWZvSNenbNEBLznFidF3TEslY=/322x478/smart/filters:format(webp)/media/movies/covers/2018/07/vhs-ferngully-as-aventuras-de-zak-e-crysta-na-floresta-D_NQ_NP_956_HIAbXYL.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
 SQL_setItem("Filha da Luz", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Filha da Luz.jpg||DVD - Midia Fisica Sem Nada");
+SQL_setItem("Fim dos Dias (1999)", "https://br.web.img2.acsta.net/medias/nmedia/18/95/48/10/20407383.jpg|Nivel de mofo: 4|VHS - Fita Mofada");
 SQL_setItem("Fogo no Céu", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTLLyZ444SoNFV5URLXQ--SIM_3z51oqdTmp20sKCKTiD7DinSckGtA4A&s=10||DVD - Midia Fisica Sem Nada");
 SQL_setItem("Fogo no Céu (1993)", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTLLyZ444SoNFV5URLXQ--SIM_3z51oqdTmp20sKCKTiD7DinSckGtA4A&s=10|Nivel de mofo: 1|VHS - Fita Mofada");
 SQL_setItem("Fome Animal - 1992", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Fome Animal - 1992.jpg||DVD - Apenas Midia Digital");
@@ -363,6 +376,7 @@ SQL_setItem("Jogos Mortais 7", "https://bresodev.github.io/Gerenciador-de-Filmes
 SQL_setItem("Jogos Mortais 8", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Jogos Mortais 8.jpg||DVD - Midia Fisica Com Capa");
 SQL_setItem("Jogos Mortais 9 - Espiral - O Legado de Jogos Mortais", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Jogos Mortais 9 - Espiral - O Legado de Jogos Mortais.jpg||DVD - Midia Fisica Com Capa");
 SQL_setItem("Jovens Bruxas - (1996)", "https://br.web.img3.acsta.net/c_310_420/pictures/14/09/23/20/17/225218.jpg||VHS - Fita Completa");
+SQL_setItem("Jumanji (1995) ", "https://media.fstatic.com/_mx0urzxHeQj2i5H487hp06fwvk=/350x525/smart/filters:format(webp)/media/movies/covers/2011/06/5ab37e139092276376aefad487759cfe.jpg||VHS - Fita Completa");
 SQL_setItem("La mesita del comedor", "https://m.media-amazon.com/images/M/MV5BNjhmNjAwZjctZWRiYi00MzgzLWFhNGItYzBiZmVhNzU3YzVhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("Laranja Mecanica", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Laranja Mecanica.jpg||DVD - Midia Fisica Completa");
 SQL_setItem("Leatherface Massacre no Texas", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Leatherface Massacre no Texas.jpg||DVD - Midia Fisica Sem Nada");
@@ -394,14 +408,17 @@ SQL_setItem("Mestre dos Desejos 1", "https://bresodev.github.io/Gerenciador-de-F
 SQL_setItem("Mestre dos Desejos 2", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Mestre dos Desejos 2.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Mestre dos Desejos 3", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Mestre dos Desejos 3.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Mestre dos Desejos 4", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Mestre dos Desejos 4.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("MidnightMan - O Agente Especial (1997)", "https://m.media-amazon.com/images/M/MV5BYWM5YWI2ZDEtOTlkNi00NjkwLTlhNmItM2I5NjY5NTFmMTUxXkEyXkFqcGc@._V1_.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
 SQL_setItem("Midsommar", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Midsommar.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Minotauro - 2006", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Minotauro - 2006.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Monstro do Armario", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Monstro do Armario.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Mortal Kombat O Eterno Kombat (1998)", "https://d2u9hui909q9sw.cloudfront.net/loja/arquivos_loja/1579/Fotos/thumbs3/produto_Foto1_1715579.jpg?cache=||VHS - Fita Completa");
+SQL_setItem("Mortal Kombat: The Journey Begins (1995)", "https://i.ebayimg.com/images/g/eREAAOxyxpxQ9Lle/s-l640.jpg||VHS - Fita Completa");
 SQL_setItem("Morte Morte Morte", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Morte Morte Morte.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Morte Súbita - 2007", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Morte Súbita - 2007.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Mortuária - 2005", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Mortuária - 2005.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Mother - 2017", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Mother - 2017.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("Mulher Incoveniente (Minissérie de televisão 1991)", "https://m.media-amazon.com/images/M/MV5BMjE3Njc0Mjc0OV5BMl5BanBnXkFtZTcwNzg2NjYyMQ@@._V1_QL75_UX190_CR0,21,190,281_.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
 SQL_setItem("Muppets do Espaço - O Universo (1999)", "https://www.papodecinema.com.br/wp-content/uploads/2014/07/20210304-muppets-do-espaco-papo-de-cinema-cartaz.webp||VHS - Fita Completa");
 SQL_setItem("Mutação 1 - 1997", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Mutação 1 - 1997.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Mutação 2 - 2001", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Mutação 2 - 2001.jpg||DVD - Apenas Midia Digital");
@@ -425,6 +442,7 @@ SQL_setItem("Não Adianta Fugir - 2009", "https://bresodev.github.io/Gerenciador
 SQL_setItem("Não Olhe - 2019", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Não Olhe - 2019.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Abominavel Dr. Phibes", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Abominavel Dr. Phibes.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Advogado do Diabo (1997)", "https://www.dublanet.com.br/comunidade/attachment.php?aid=1326||VHS - Fita Completa");
+SQL_setItem("O Agente Especial", "https://m.media-amazon.com/images/M/MV5BNmQ1OTI1MWYtYTY3NS00OGYwLWE0NTktYjhjOTVlN2RlZjNjXkEyXkFqcGc@._V1_QL75_UX190_CR0,30,190,281_.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
 SQL_setItem("O Albergue 1", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Albergue 1.jpg||DVD - Midia Fisica Completa");
 SQL_setItem("O Albergue 2", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Albergue 2.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("O Albergue 3", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Albergue 3.jpg||DVD - Midia Fisica Sem Nada");
@@ -439,7 +457,7 @@ SQL_setItem("O Ataque dos Vermes Malditos 6 Um Dia Frio no Inferno 2018", "https
 SQL_setItem("O Ataque dos Vermes Malditos 7- Ilha dos Shriekers 2020", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Ataque dos Vermes Malditos 7- Ilha dos Shriekers 2020.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Bar Luva Dourada 2019", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Bar Luva Dourada 2019.jpg||DVD - Midia Fisica Completa");
 SQL_setItem("O Bebê de Rosemary 1968", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Bebê de Rosemary 1968.jpg||DVD - Midia Fisica Completa");
-SQL_setItem("O Beijo Mortal (1988)", "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB5pZVFzW2FuLbSmrM71Q4XElBSaWCb6RQh8TfInFNqanqeftzhu3uvpFXzQglpcJCmBJQayP61PlLspUt_0op426C8Xmuq9vIDUpLtrUeQNRr9GeMEfl3FmhqVoBmcPmGyPKbo8nAWEc/s400/O-Beijo-Mortal.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
+SQL_setItem("O Beijo Mortal (1988)", "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjB5pZVFzW2FuLbSmrM71Q4XElBSaWCb6RQh8TfInFNqanqeftzhu3uvpFXzQglpcJCmBJQayP61PlLspUt_0op426C8Xmuq9vIDUpLtrUeQNRr9GeMEfl3FmhqVoBmcPmGyPKbo8nAWEc/s400/O-Beijo-Mortal.jpg|Nivel de mofo: 5 (foi limpa)|VHS - Fita Completa");
 SQL_setItem("O Bosque - 2008", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Bosque - 2008.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Bosque de Blair Witch", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Bosque de Blair Witch.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Castelo Maldito - 1995", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Castelo Maldito - 1995.jpg||DVD - Apenas Midia Digital");
@@ -452,6 +470,7 @@ SQL_setItem("O Chamado 3", "https://bresodev.github.io/Gerenciador-de-Filmes/cap
 SQL_setItem("O Chamado 4", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Chamado 4.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("O Chupa-Cabra - 2014", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Chupa-Cabra - 2014.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Colecionador de Corpos", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Colecionador de Corpos.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("O Corcunda de Notre Dame", "https://http2.mlstatic.com/D_NQ_NP_992890-MLB52027864943_102022-O.webp||VHS - Fita Completa");
 SQL_setItem("O Crematorio", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Crematorio.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Culto - 2017", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Culto - 2017.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Cão do Diabo - 1978", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Cão do Diabo - 1978.jpg||DVD - Apenas Midia Digital");
@@ -460,6 +479,7 @@ SQL_setItem("O Dentista 2", "https://bresodev.github.io/Gerenciador-de-Filmes/ca
 SQL_setItem("O Despertar da Besta", "https://m.media-amazon.com/images/M/MV5BMTAwNjA0NTE5NjleQTJeQWpwZ15BbWU3MDU1MTAxMjE@._V1_.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Discipulo de Dracula", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Discipulo de Dracula.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Enigma do Outro Mundo", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Enigma do Outro Mundo.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("O Espírito do Crime (1998)", "https://media.fstatic.com/pnkONfRgU_ZWtFD0w3CPgxTF27I=/350x525/smart/filters:format(webp)/media/movies/covers/2018/01/19800743_1420220338072634_1783039098947548125_o_SMuWmyQ.jpg|Nivel de mofo: 1|VHS - Fita Mofada");
 SQL_setItem("O Exorcismo de Emily Rose", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Exorcismo de Emily Rose.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("O Exorcista - O Devoto 2023", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Exorcista - O Devoto 2023.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("O Exorcista 1", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Exorcista 1.jpg||DVD - Midia Fisica Completa");
@@ -467,6 +487,7 @@ SQL_setItem("O Exorcista 2", "https://bresodev.github.io/Gerenciador-de-Filmes/c
 SQL_setItem("O Exorcista 3", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Exorcista 3.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("O Exorcista 4", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Exorcista 4.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("O Exorcista do Papa", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Exorcista do Papa.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("O Exterminador Ninja", "https://http2.mlstatic.com/D_NQ_NP_813325-MLB25429013497_032017-O.webp|Nivel de mofo: 1|VHS - Fita Mofada");
 SQL_setItem("O Extranho Mundo de Zé do Caixão", "https://retroteca.org/wp-content/uploads/2025/05/doXlYEBwxZPZY7fLxSinsu31ceh.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("O Fantasma da Opera 1962", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Fantasma da Opera 1962.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Farol", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Farol.jpg||DVD - Apenas Midia Digital");
@@ -476,7 +497,7 @@ SQL_setItem("O Grito 1 - 2004", "https://bresodev.github.io/Gerenciador-de-Filme
 SQL_setItem("O Grito 2 - 2006", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Grito 2 - 2006.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("O Grito 3 - 2009", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Grito 3 - 2009.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("O Grito 4 - 2020", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Grito 4 - 2020.jpg||DVD - Midia Fisica Sem Nada");
-SQL_setItem("O Homem Da Máscara De Ferro", "https://http2.mlstatic.com/D_NQ_NP_8370-MLB20003264691_112013-O.webp|Nivel de mofo: 3|VHS - Fita Mofada");
+SQL_setItem("O Holandês Voador (1995)", "https://m.media-amazon.com/images/M/MV5BODZkNmRiZDItNzQ1Zi00NjA0LTgwYTAtY2JiZmU4YjVmZDcwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
 SQL_setItem("O Homem Invisível - 2020", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Homem Invisível - 2020.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Homem Sem Sombra 1 - 2000", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Homem Sem Sombra 1 - 2000.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Homem Sem Sombra 2 - 2008", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Homem Sem Sombra 2 - 2008.jpg||DVD - Apenas Midia Digital");
@@ -487,6 +508,8 @@ SQL_setItem("O Limite do Medo", "https://bresodev.github.io/Gerenciador-de-Filme
 SQL_setItem("O Lobisomem - 1941", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Lobisomem - 1941.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("O Lobisomem - 2010", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Lobisomem - 2010.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("O Maskara (1994)", "https://br.web.img2.acsta.net/medias/nmedia/18/90/86/15/20116705.jpg|Nivel de mofo: 1|VHS - Fita Mofada");
+SQL_setItem("O Maskara - Uma Mascara Quase Perfeita", "https://i.pinimg.com/236x/3b/24/8f/3b248f2b310da805977fec4e543f721d.jpg||VHS - Fita Completa");
+SQL_setItem("O Maskara Contra Ataca", "https://upload.wikimedia.org/wikipedia/pt/d/d5/O_mascara_desenho.jpg||VHS - Fita Completa");
 SQL_setItem("O Massacre Da Serra Elétrica 1", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Massacre Da Serra Elétrica 1.jpg||DVD - Midia Fisica Completa");
 SQL_setItem("O Massacre Da Serra Elétrica 2", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Massacre Da Serra Elétrica 2.jpg||DVD - Midia Fisica Com Capa");
 SQL_setItem("O Massacre Da Serra Elétrica 2003", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Massacre Da Serra Elétrica 2003.jpg||DVD - Midia Fisica Com Capa");
@@ -522,9 +545,12 @@ SQL_setItem("O Ritual - 2017", "https://bresodev.github.io/Gerenciador-de-Filmes
 SQL_setItem("O Sacrifício - 2006", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Sacrifício - 2006.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Sangue do Dracula", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Sangue do Dracula.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Segredo da Cabana - 2012", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Segredo da Cabana - 2012.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("O Show de Truman (1998)", "https://br.web.img3.acsta.net/medias/nmedia/18/93/64/37/20269376.jpg|Nivel de mofo: 1|VHS - Fita Mofada");
 SQL_setItem("O Silêncio dos Inocentes", "https://br.web.img3.acsta.net/pictures/14/10/07/22/16/591185.jpg||DVD - Midia Fisica Sem Nada");
+SQL_setItem("O Suspeito da Rua Arlington (1999)", "https://br.web.img3.acsta.net/pictures/14/06/12/17/17/249435.jpg||VHS - Fita Completa");
 SQL_setItem("O Telefone Preto 2022", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Telefone Preto 2022.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O massacre da serra elétrica 4 O retorno", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O massacre da serra elétrica 4 O retorno.jpg||DVD - Midia Fisica Com Capa");
+SQL_setItem("O Último Boy Scout - O Jogo da Vingança", "https://m.media-amazon.com/images/S/pv-target-images/7e49a88001a39cce8d13c35ef34ff122700f059a6c26f05c65bc3e262035cb70.jpg|Nivel de mofo: 1|VHS - Fita Mofada");
 SQL_setItem("O Último Exorcismo - Parte 1 - 2010", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Último Exorcismo - Parte 1 - 2010.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Último Exorcismo - Parte 2 - 2013", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Último Exorcismo - Parte 2 - 2013.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Olhos Assassinos - 1981", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Olhos Assassinos - 1981.jpg||DVD - Apenas Midia Digital");
@@ -532,6 +558,7 @@ SQL_setItem("Olhos Famintos 1", "https://bresodev.github.io/Gerenciador-de-Filme
 SQL_setItem("Olhos Famintos 2", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Olhos Famintos 2.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Olhos Famintos 3", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Olhos Famintos 3.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Olhos Famintos 4", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Olhos Famintos 4.jpg||DVD - Midia Fisica Sem Nada");
+SQL_setItem("Olivier, Olivier", "https://upload.wikimedia.org/wikipedia/en/b/b3/Olivier%2C_Olivier_film_poster.jpg||VHS - Fita Completa");
 SQL_setItem("Os 3 Infernais - 2019", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Os 3 Infernais - 2019.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Os Escravos de Satanás - 2018", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Os Escravos de Satanás - 2018.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Os Esquecidos", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Os Esquecidos.jpg||DVD - Apenas Midia Digital");
@@ -559,6 +586,7 @@ SQL_setItem("Pannico 3 (2000)", "https://encrypted-tbn0.gstatic.com/images?q=tbn
 SQL_setItem("Paranóia - 2007", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Paranóia - 2007.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Passaro Pintado", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Passaro Pintado.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("Pearl", "https://m.media-amazon.com/images/M/MV5BNzk0Y2RlZjItZDUzYi00Y2JhLTk5MzMtNjgzYWFmZmUxN2FmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("Pecados do Desejo (1993)", "https://m.media-amazon.com/images/M/MV5BMTM4NDc1MTQ2M15BMl5BanBnXkFtZTYwODA2MjU5._V1_.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
 SQL_setItem("Perseguidos - 2010", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Perseguidos - 2010.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Perseguidos pela Morte - 2014", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Perseguidos pela Morte - 2014.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Perseguição 1 - 2001", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Perseguição 1 - 2001.jpg||DVD - Apenas Midia Digital");
@@ -571,6 +599,7 @@ SQL_setItem("Piranha 1 - 1978", "https://m.media-amazon.com/images/M/MV5BMzQ0ZTN
 SQL_setItem("Piranha 1 - 2010", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Piranha 1 - 2010.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Piranha 2 - 2012", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Piranha 2 - 2012.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Piranha 2 1981", "https://m.media-amazon.com/images/M/MV5BMTYxMzYwNzAyNF5BMl5BanBnXkFtZTYwMDcxNTA5._V1_FMjpg_UX1000_.jpg||DVD - Midia Fisica Sem Nada");
+SQL_setItem("Poder Absoluto", "https://m.media-amazon.com/images/I/51r0+jjhdOL._AC_UF894,1000_QL80_.jpg|Nivel de mofo: 1|VHS - Fita Mofada");
 SQL_setItem("Poltergeist 1 - 1982", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Poltergeist 1 - 1982.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("Poltergeist 2 - 1986", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Poltergeist 2 - 1986.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("Poltergeist 3 - 1988", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Poltergeist 3 - 1988.jpg||DVD - Midia Fisica Sem Nada");
@@ -618,6 +647,7 @@ SQL_setItem("REC 3", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/REC
 SQL_setItem("REC 4", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/REC 4.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("Re-Animator - 1985", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Re-Animator - 1985.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Re-Animator - Fase Terminal - 2003", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Re-Animator - Fase Terminal - 2003.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("Reação em Cadeia (1996)", "https://m.media-amazon.com/images/M/MV5BZGQwYTVlMzQtN2NlZC00MTU3LWE4YzMtNjM0ODhjOTBlNGIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg||VHS - Fita Completa");
 SQL_setItem("Refém do Espirito - 2008", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Refém do Espirito - 2008.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Rejeitados pelo Diabo - 2005", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Rejeitados pelo Diabo - 2005.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Resident Evil - A Vingança - 2017", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Resident Evil - A Vingança - 2017.jpg||DVD - Apenas Midia Digital");
@@ -628,8 +658,10 @@ SQL_setItem("Resident Evil 3 - A Extinção - 2007", "https://bresodev.github.io
 SQL_setItem("Resident Evil 4 - Recomeço - 2010", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Resident Evil 4 - Recomeço - 2010.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Resident Evil 5 - Retribuição - 2012", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Resident Evil 5 - Retribuição - 2012.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Resident Evil 6 - O Capítulo Final - 2017", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Resident Evil 6 - O Capítulo Final - 2017.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("Rio de Sangue", "https://dw0jruhdg6fis.cloudfront.net/producao/23968376/G/rio_de_sangue.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
 SQL_setItem("Ripper - O Mensageiro do Inferno - 2001", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Ripper - O Mensageiro do Inferno - 2001.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Ripper 2 - Ressuscitando o Medo - 2004", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Ripper 2 - Ressuscitando o Medo - 2004.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("Rock dos Sinos", "https://media.fstatic.com/XtghpnrfZ1-JvJv2kS7WV7Q9qTY=/210x303/smart/filters:format(webp)/media/movies/covers/2015/11/o-rock-dos-sinos_t193861.jpg||VHS - Fita Completa");
 SQL_setItem("Rock n Roll Hoigh School", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz4O8DfB0AJjHIoSIxpbHhKK8HLluqxZtGAa89XR99IayGjgzJwPTDSoBP&s=10||DVD - Apenas Midia Digital");
 SQL_setItem("Rogai por Nos", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Rogai por Nos.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Rota Mortal 1 - 2006", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Rota Mortal 1 - 2006.jpg||DVD - Apenas Midia Digital");
@@ -672,6 +704,7 @@ SQL_setItem("Sobrenatural 2 - 2014", "https://bresodev.github.io/Gerenciador-de-
 SQL_setItem("Sobrenatural 3 - A Origem - 2015", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Sobrenatural 3 - A Origem - 2015.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Sobrenatural 4 - A última Chave - 2018", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Sobrenatural 4 - A última Chave - 2018.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Sobrenatural 5", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Sobrenatural 5.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("Sonâmbulos (1992)", "https://br.web.img2.acsta.net/c_310_420/pictures/23/07/11/15/55/2519160.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
 SQL_setItem("Sorria", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Sorria.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("Sorria 2", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Sorria 2.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("Sozinha", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Sozinha.jpg||DVD - Apenas Midia Digital");
@@ -694,6 +727,7 @@ SQL_setItem("Terras de Sangue - 2014", "https://bresodev.github.io/Gerenciador-d
 SQL_setItem("Terrifier 1 - 2016", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Terrifier 1 - 2016.jpg||DVD - Midia Fisica Completa");
 SQL_setItem("Terrifier 2 -2022", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Terrifier 2 -2022.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("Terrifier 3", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Terrifier 3.jpg||DVD - Midia Fisica Sem Nada");
+SQL_setItem("Terror em Amityville", "https://play-lh.googleusercontent.com/OWeix-ulMJtPWd-ce84Z0N1s7ZjSu1B1Lb_7ep8pBVxyH769RUZu2UgRDhY0CV3Pd7CHDxgBz-m4FFQp4mE=w600-h300-pc0xffffff-pd|Nivel de mofo: 3|VHS - Fita Mofada");
 SQL_setItem("Terror em Silent Hill", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Terror em Silent Hill.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Testemunha Muda - 1994", "https://media.fstatic.com/uQK7dK20tTVLa6izjyKWyk1Jg38=/322x478/smart/filters:format(webp)/media/movies/covers/2022/08/8547930.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
 SQL_setItem("The Birds 1963", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/The Birds 1963.jpg||DVD - Apenas Midia Digital");
@@ -703,9 +737,12 @@ SQL_setItem("The Silence - 2019", "https://bresodev.github.io/Gerenciador-de-Fil
 SQL_setItem("The Woman", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/The Woman.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Thomas Crown - A Arte do Crime", "https://play-lh.googleusercontent.com/JNbevFFNhRF_iWk2fgCMVUCvselGlohFDLizZ7TtfwwRcy7enNMLyBuNw4eBI-p-ANnuihVVLrEP1_ON3OE|Nivel de mofo: 3|VHS - Fita Mofada");
 SQL_setItem("Thunderbolt: Ação Sobre Rodas (1995)", "https://m.media-amazon.com/images/M/MV5BOWM2MDNlNDMtZmJlNS00YTc2LTkzMWItYzc5YTI4ZWJhY2JjXkEyXkFqcGc@._V1_.jpg|Nivel de mofo: 4|VHS - Fita Mofada");
+SQL_setItem("Todo Mundo em Pânico (2000)", "https://m.media-amazon.com/images/M/MV5BNTg0MDcxNmEtNDA5Yy00MDAyLWEzY2MtMzM4ZWMyNTUzN2Q4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
+SQL_setItem("Todo Mundo em Pânico 1", "https://br.web.img3.acsta.net/medias/nmedia/18/87/28/03/19873867.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
 SQL_setItem("Tomates Assasinos 2", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Tomates Assasinos 2.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Tony", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Tony.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Toque de Recolher - 2006", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Toque de Recolher - 2006.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("Tortura Silenciosa (1993)", "https://br.web.img2.acsta.net/medias/nmedia/18/87/22/92/19873332.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
 SQL_setItem("Trancada 2022", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Trancada 2022.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Trem Fantasma - 2006", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Trem Fantasma - 2006.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Triângulo do Medo - 2009", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Triângulo do Medo - 2009.jpg||DVD - Apenas Midia Digital");
@@ -718,20 +755,26 @@ SQL_setItem("Tubarao 4 - O Ultimo Tubarao", "https://bresodev.github.io/Gerencia
 SQL_setItem("Turistas - 2006", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Turistas - 2006.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Tusk A Transformacao", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Tusk A Transformacao.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Ultimo Mundo Canibal - Faces da Morte 8", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Ultimo Mundo Canibal - Faces da Morte 8.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("Ultraman", "https://http2.mlstatic.com/D_NQ_NP_461211-MLB20495521201_112015-O.webp|Nivel de mofo: 2|VHS - Fita Mofada");
 SQL_setItem("Um Clássico Filme de Terror - 2021", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Um Clássico Filme de Terror - 2021.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("Um Domingo Qualquer (1999)", "https://br.web.img3.acsta.net/medias/nmedia/18/87/30/60/19874131.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
 SQL_setItem("Um Drink no Inferno 1 - 1996", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Um Drink no Inferno 1 - 1996.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Um Drink no Inferno 2 - 1999", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Um Drink no Inferno 2 - 1999.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Um Drink no Inferno 3 - 2000", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Um Drink no Inferno 3 - 2000.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Um Lugar Silencioso", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Um Lugar Silencioso.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Um Sonho de Liberdade", "https://ingresso-a.akamaihd.net/img/cinema/cartaz/12948-cartaz.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
+SQL_setItem("Uma Equipe Muito Especial", "https://m.media-amazon.com/images/S/pv-target-images/fc788b9905dac70b81a2ced0e19dee910368b77a3f25c37c761219b0a7c5eb1d.jpg|Nivel de Mofo: 3 |VHS - Fita Mofada");
 SQL_setItem("Uma Noite Para Esquecer - 2013", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Uma Noite Para Esquecer - 2013.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Uma Noite de Crime 1 - 2013", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Uma Noite de Crime 1 - 2013.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Uma Noite de Crime 2 - Anarquia - 2014", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Uma Noite de Crime 2 - Anarquia - 2014.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Uma Noite de Crime 3 - 2016", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Uma Noite de Crime 3 - 2016.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Uma Noite de Crime 4 A Primeira Noite de Crime", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Uma Noite de Crime 4 A Primeira Noite de Crime.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Uma Noite de Crime 5 A Fronteira", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Uma Noite de Crime 5 A Fronteira.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("Uma Vida de Rei (1989)", "https://media.fstatic.com/WwLrzDSX4Vm09rm7TsP93taq_uY=/350x525/smart/filters:format(webp)/media/movies/covers/2012/04/a790d4e79226900fbf6c4bcb32cf6c43.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
 SQL_setItem("Vertigo 1958", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Vertigo 1958.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Verónica - 2017", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Verónica - 2017.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("Vestida Para Matar ", "https://cinema10.com.br/upload/featuredImage.php?url=https%3A%2F%2Fcinema10.com.br%2Fupload%2Ffilmes%2Ffilmes_5023_Vestida.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
+SQL_setItem("Vestida Para Matar (1980)", "https://http2.mlstatic.com/D_NQ_NP_955206-MLB85676409972_062025-O.webp|Nivel de mofo: 2|VHS - Fita Mofada");
 SQL_setItem("Viagem Maldita 1 - 2006", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Viagem Maldita 1 - 2006.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Viagem Maldita 2 - 2007", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Viagem Maldita 2 - 2007.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Viagem da Morte (1996)", "https://media.fstatic.com/EFJ3vE2yDvYvrqy6iDKpHueHb-s=/322x478/smart/filters:format(webp)/media/movies/covers/2012/08/b36054d657c0d168b4fb58278138cd37.jpg||VHS - Fita Completa");
@@ -752,68 +795,3 @@ SQL_setItem("Ze do caixao - À Meia Noite Levarei Sua Alma", "https://bresodev.g
 SQL_setItem("Zoombies 1 - 2016", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Zoombies 1 - 2016.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Zoombies 2 - 2019", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Zoombies 2 - 2019.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Á Prova de Morte - 2007", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Á Prova de Morte - 2007.jpg||DVD - Apenas Midia Digital");
-SQL_setItem("Todo Mundo em Pânico 1", "https://br.web.img3.acsta.net/medias/nmedia/18/87/28/03/19873867.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
-SQL_setItem("Terror em Amityville", "https://play-lh.googleusercontent.com/OWeix-ulMJtPWd-ce84Z0N1s7ZjSu1B1Lb_7ep8pBVxyH769RUZu2UgRDhY0CV3Pd7CHDxgBz-m4FFQp4mE=w600-h300-pc0xffffff-pd|Nivel de mofo: 3|VHS - Fita Mofada");
-SQL_setItem("O Show de Truman - (1998)", "https://br.web.img3.acsta.net/medias/nmedia/18/93/64/37/20269376.jpg|Nivel de mofo: 1|VHS - Fita Mofada");
-SQL_setItem("Busca Explosiva (1999)", "https://images.justwatch.com/poster/205854253/s718/simon-sez.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
-SQL_setItem("Cabeças Voadoras (1994) ", "https://m.media-amazon.com/images/M/MV5BMjgxNzhhMGItOGUzNS00NDBkLWFkM2EtNDYxYzZlMjJlZWE2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg||VHS - Fita Completa");
-SQL_setItem("Dublê da Morte (1994)", "https://media.fstatic.com/a7i8EVEGaTysyNKX-vNSu6BeDGU=/350x525/smart/filters:format(webp)/media/movies/covers/2013/01/a0eb0a0fecacc396a0d9157fa1c45b39.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
-SQL_setItem("Duro de Espiar - (1996)", "https://br.web.img3.acsta.net/pictures/15/10/20/15/19/329557.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
-SQL_setItem("Fim dos Dias (1999)", "https://br.web.img2.acsta.net/medias/nmedia/18/95/48/10/20407383.jpg|Nivel de mofo: 4|VHS - Fita Mofada");
-SQL_setItem("MidnightMan - O Agente Especial (1997)", "https://m.media-amazon.com/images/M/MV5BYWM5YWI2ZDEtOTlkNi00NjkwLTlhNmItM2I5NjY5NTFmMTUxXkEyXkFqcGc@._V1_.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
-SQL_setItem("Mortal Kombat: The Journey Begins (1995)", "https://i.ebayimg.com/images/g/eREAAOxyxpxQ9Lle/s-l640.jpg||VHS - Fita Completa");
-SQL_setItem("O Espírito do Crime (1998)", "https://media.fstatic.com/pnkONfRgU_ZWtFD0w3CPgxTF27I=/350x525/smart/filters:format(webp)/media/movies/covers/2018/01/19800743_1420220338072634_1783039098947548125_o_SMuWmyQ.jpg|Nivel de mofo: 1|VHS - Fita Mofada");
-SQL_setItem("O Exterminador Ninja", "https://http2.mlstatic.com/D_NQ_NP_813325-MLB25429013497_032017-O.webp|Nivel de mofo: 1|VHS - Fita Mofada");
-SQL_setItem("O Maskara Contra Ataca", "https://upload.wikimedia.org/wikipedia/pt/d/d5/O_mascara_desenho.jpg||VHS - Fita Completa");
-SQL_setItem("O Último Boy Scout - O Jogo da Vingança", "https://m.media-amazon.com/images/S/pv-target-images/7e49a88001a39cce8d13c35ef34ff122700f059a6c26f05c65bc3e262035cb70.jpg|Nivel de mofo: 1|VHS - Fita Mofada");
-SQL_setItem("Poder Absoluto", "https://m.media-amazon.com/images/I/51r0+jjhdOL._AC_UF894,1000_QL80_.jpg|Nivel de mofo: 1|VHS - Fita Mofada");
-SQL_setItem("Rock dos Sinos", "https://media.fstatic.com/XtghpnrfZ1-JvJv2kS7WV7Q9qTY=/210x303/smart/filters:format(webp)/media/movies/covers/2015/11/o-rock-dos-sinos_t193861.jpg||VHS - Fita Completa");
-SQL_setItem("Sonâmbulos (1992)", "https://br.web.img2.acsta.net/c_310_420/pictures/23/07/11/15/55/2519160.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
-SQL_setItem("Um Domingo Qualquer (1999)", "https://br.web.img3.acsta.net/medias/nmedia/18/87/30/60/19874131.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
-SQL_setItem("Uma Vida de Rei (1989)", "https://media.fstatic.com/WwLrzDSX4Vm09rm7TsP93taq_uY=/350x525/smart/filters:format(webp)/media/movies/covers/2012/04/a790d4e79226900fbf6c4bcb32cf6c43.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
-SQL_setItem("Vestida Para Matar ", "https://cinema10.com.br/upload/featuredImage.php?url=https%3A%2F%2Fcinema10.com.br%2Fupload%2Ffilmes%2Ffilmes_5023_Vestida.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
-
-SQL_setItem("10 Coisas que Eu Odeio em Você (1999)", "https://br.web.img3.acsta.net/medias/nmedia/18/90/67/52/20107757.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
-SQL_setItem("A Louca Corrida do Ouro (1984)", "https://dw0jruhdg6fis.cloudfront.net/producao/23888766/G/louca_corrida_do_ouro.jpg|Nivel de mofo: 4|VHS - Fita Mofada");
-SQL_setItem("A Odisséia (1997)", "https://br.web.img2.acsta.net/medias/nmedia/18/90/37/97/20093845.jpg||VHS - Fita Completa");
-SQL_setItem("A Pequena Sereia II - O Retorno Para o Mar (2000)", "https://br.web.img2.acsta.net/pictures/14/07/24/16/11/283831.jpg|Nivel de Mofo: 1  (está sem capa)|VHS - Fita Mofada");
-SQL_setItem("A Rainha da Neve (1995)", "https://m.media-amazon.com/images/M/MV5BMjM3MTM5MWYtY2NmYS00YmNiLTg2NDgtNTE1NTdhNGNiYWVmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg||VHS - Fita Completa");
-SQL_setItem("Austin Powers: 000 Um Agente Nada Discreto (1997)", "https://media.fstatic.com/NU_FGMmX86kDlp70HqJaLgY1ZFw=/322x478/smart/filters:format(webp)/media/movies/covers/2013/04/03af8967ace26b52a5709e0e678a54e3_3.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
-SQL_setItem("Cabeças Voadoras (1994)", "https://m.media-amazon.com/images/M/MV5BMjgxNzhhMGItOGUzNS00NDBkLWFkM2EtNDYxYzZlMjJlZWE2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg||VHS - Fita Completa");
-SQL_setItem("Distração Fatal", "https://m.media-amazon.com/images/S/pv-target-images/1c861934004282ef1ce74355ea5a2b9e9a59f42a9a1a3b9b9f84f4908bb382e5.jpg|Nivel de Mofo: 2|VHS - Fita Mofada");
-SQL_setItem("Dublê da Morte (1993)", "https://www.acervocine.com.br/wp-content/uploads/2024/12/Captura-de-tela-2024-08-02-161951.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
-SQL_setItem("Duelo de Titãs (1959)", "https://m.media-amazon.com/images/M/MV5BZGJmYTQ2MmMtN2U2Zi00ODE4LWIyN2QtOGRmOTQ1NTVjYTZmXkEyXkFqcGc@._V1_.jpg|Nivel de Mofo: 2|VHS - Fita Mofada");
-SQL_setItem("Duro de Espiar (1996)", "https://br.web.img3.acsta.net/pictures/15/10/20/15/19/329557.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
-SQL_setItem("Jumanji (1995) ", "https://media.fstatic.com/_mx0urzxHeQj2i5H487hp06fwvk=/350x525/smart/filters:format(webp)/media/movies/covers/2011/06/5ab37e139092276376aefad487759cfe.jpg||VHS - Fita Completa");
-SQL_setItem("O Holandês Voador (1995)", "https://m.media-amazon.com/images/M/MV5BODZkNmRiZDItNzQ1Zi00NjA0LTgwYTAtY2JiZmU4YjVmZDcwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
-SQL_setItem("O Show de Truman (1998)", "https://br.web.img3.acsta.net/medias/nmedia/18/93/64/37/20269376.jpg|Nivel de mofo: 1|VHS - Fita Mofada");
-SQL_setItem("O Suspeito da Rua Arlington (1999)", "https://br.web.img3.acsta.net/pictures/14/06/12/17/17/249435.jpg||VHS - Fita Completa");
-SQL_setItem("Olivier, Olivier", "https://upload.wikimedia.org/wikipedia/en/b/b3/Olivier%2C_Olivier_film_poster.jpg||VHS - Fita Completa");
-SQL_setItem("Pecados do Desejo (1993)", "https://m.media-amazon.com/images/M/MV5BMTM4NDc1MTQ2M15BMl5BanBnXkFtZTYwODA2MjU5._V1_.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
-SQL_setItem("Reação em Cadeia (1996)", "https://m.media-amazon.com/images/M/MV5BZGQwYTVlMzQtN2NlZC00MTU3LWE4YzMtNjM0ODhjOTBlNGIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg||VHS - Fita Completa");
-SQL_setItem("Sonâmbulos (1992)", "https://br.web.img2.acsta.net/c_310_420/pictures/23/07/11/15/55/2519160.jpg|Nivel de Mofo: 5|VHS - Fita Mofada");
-SQL_setItem("Todo Mundo em Pânico (2000)", "https://m.media-amazon.com/images/M/MV5BNTg0MDcxNmEtNDA5Yy00MDAyLWEzY2MtMzM4ZWMyNTUzN2Q4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
-SQL_setItem("Tortura Silenciosa (1993)", "https://br.web.img2.acsta.net/medias/nmedia/18/87/22/92/19873332.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
-SQL_setItem("Um Domingo Qualquer (1999)", "https://br.web.img3.acsta.net/medias/nmedia/18/87/30/60/19874131.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
-SQL_setItem("Uma Equipe Muito Especial", "https://m.media-amazon.com/images/S/pv-target-images/fc788b9905dac70b81a2ced0e19dee910368b77a3f25c37c761219b0a7c5eb1d.jpg|Nivel de Mofo: 3 |VHS - Fita Mofada");
-
-
-
-
-SQL_setItem("Busca Explosiva", "https://m.media-amazon.com/images/S/pv-target-images/7cf1c74f890b05d88ee7bbec33f3055aaf7451611c05262155d492badcb256b9.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
-SQL_setItem("Cyborg Cop II - O Pior Pesadelo (1994)", "https://media.fstatic.com/CJX0rTpPtnJQC2lge_7JTu_55NE=/350x525/smart/filters:format(webp)/media/movies/covers/2011/06/05c9fe0c451d65ccfd9e4aa003314867.jpg|Nivel de mofo: 1|VHS - Fita Mofada");
-SQL_setItem("Ferngully - As Aventuras de Zack e Crysta na Floresta Tropical", "https://media.fstatic.com/Z1MWZvSNenbNEBLznFidF3TEslY=/322x478/smart/filters:format(webp)/media/movies/covers/2018/07/vhs-ferngully-as-aventuras-de-zak-e-crysta-na-floresta-D_NQ_NP_956_HIAbXYL.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
-SQL_setItem("Mulher Incoveniente (Minissérie de televisão 1991)", "https://m.media-amazon.com/images/M/MV5BMjE3Njc0Mjc0OV5BMl5BanBnXkFtZTcwNzg2NjYyMQ@@._V1_QL75_UX190_CR0,21,190,281_.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
-SQL_setItem("O Agente Especial", "https://m.media-amazon.com/images/M/MV5BNmQ1OTI1MWYtYTY3NS00OGYwLWE0NTktYjhjOTVlN2RlZjNjXkEyXkFqcGc@._V1_QL75_UX190_CR0,30,190,281_.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
-SQL_setItem("O Corcunda de Notre Dame", "https://http2.mlstatic.com/D_NQ_NP_992890-MLB52027864943_102022-O.webp||VHS - Fita Completa");
-SQL_setItem("O Exterminador Ninja", "https://http2.mlstatic.com/D_NQ_NP_813325-MLB25429013497_032017-O.webp|Nivel de mofo: 1|VHS - Fita Mofada");
-SQL_setItem("O Maskara - Uma Mascara Quase Perfeita", "https://i.pinimg.com/236x/3b/24/8f/3b248f2b310da805977fec4e543f721d.jpg||VHS - Fita Completa");
-SQL_setItem("O Maskara Contra-ataca", "https://upload.wikimedia.org/wikipedia/pt/d/d5/O_mascara_desenho.jpg||VHS - Fita Completa");
-SQL_setItem("Rio de Sangue", "https://dw0jruhdg6fis.cloudfront.net/producao/23968376/G/rio_de_sangue.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
-SQL_setItem("Robocop: A Missão Final (1994)", "https://media.fstatic.com/L7YG3uIe6mZY98s4-6g5B48ApYE=/350x525/smart/filters:format(webp)/media/movies/covers/2014/09/robocop-a-missao-final_t64483.JPG|Nivel de mofo: 2|VHS - Fita Mofada");
-SQL_setItem("Ultraman", "https://http2.mlstatic.com/D_NQ_NP_461211-MLB20495521201_112015-O.webp|Nivel de mofo: 2|VHS - Fita Mofada");
-SQL_setItem("Vestida Para Matar (1980)", "https://http2.mlstatic.com/D_NQ_NP_955206-MLB85676409972_062025-O.webp|Nivel de mofo: 2|VHS - Fita Mofada");
-
-
-
-
