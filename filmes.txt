@@ -31,6 +31,7 @@ SQL_setItem("A Caverna Maldita - 2006", "https://bresodev.github.io/Gerenciador-
 SQL_setItem("A Chave do Poder (1995)", "https://m.media-amazon.com/images/M/MV5BMTIxMjQwNjY2OF5BMl5BanBnXkFtZTcwNTUzOTEyMQ@@._V1_QL75_UX137_.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
 SQL_setItem("A Coisa - 2011", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Coisa - 2011.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("A Criatura do Cemitério 1990", "https://bocadoinferno.com.br/wp-content/uploads/2015/09/A-Criatura-do-Cemit%C3%A9rio-1990-6.jpg|Nivel de mofo: 3|VHS - Fita Mofada");
+SQL_setItem("A Empregada", "https://ingresso-a.akamaihd.net/prd/img/movie/a-empregada/4e37e5ca-5b88-4eee-8bee-07842a605e2f.webp||DVD - Midia Fisica Sem Nada");
 SQL_setItem("A Enfermeira Assassina - 2014", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Enfermeira Assassina - 2014.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("A Entidade", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Entidade.jpg||DVD - Midia Fisica Completa");
 SQL_setItem("A Entidade 2", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Entidade 2.jpg||DVD - Midia Fisica Sem Nada");
@@ -81,7 +82,7 @@ SQL_setItem("A Mosca 1958", "https://m.media-amazon.com/images/M/MV5BNWYwZmRjNjE
 SQL_setItem("A Mosca 2 - 1989", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Mosca 2 - 1989.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("A Mulher de Preto 1", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Mulher de Preto 1.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("A Mulher de Preto 2", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Mulher de Preto 2.jpg||DVD - Apenas Midia Digital");
-SQL_setItem("A Mumia - 1932", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Mumia - 1932.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("A Mumia - 1932", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Mumia - 1932.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("A Múmia - 1959", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Múmia - 1959.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("A Múmia - 2017", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/A Múmia - 2017.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("A Noite dos Mortos Vivos - 1968", "https://m.media-amazon.com/images/M/MV5BZWVlNzEzMzItM2VkZC00MzA0LThkMjQtZmZjYzM2M2YyZGMzXkEyXkFqcGc@._V1_.jpg||DVD - Midia Fisica Sem Nada");
@@ -374,6 +375,7 @@ SQL_setItem("It 2 - 2019", "https://bresodev.github.io/Gerenciador-de-Filmes/cap
 SQL_setItem("It- Uma obra prima do medo", "https://m.media-amazon.com/images/M/MV5BZDFhODExOTctNTFkZS00NjE1LWE2MWMtY2Q1ZThhMGY5NjJkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg||DVD - Midia Fisica Completa");
 SQL_setItem("Jack Frost 1 - 1997", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Jack Frost 1 - 1997.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Jason X - 2001", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Jason X - 2001.jpg||DVD - Midia Fisica Sem Nada");
+SQL_setItem("Jasão e os Argonautas", "https://media.fstatic.com/ElRVVB89r4SWtF-9NaNMW5Z-wvM=/350x525/smart/filters:format(webp)/media/movies/covers/2010/03/jas%C3%A3o.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("Jogo Macabro", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Jogo Macabro.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Jogo da Morte - (1978)", "https://br.web.img3.acsta.net/c_310_420/pictures/16/02/29/22/36/215546.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
 SQL_setItem("Jogos Mortais 1", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Jogos Mortais 1.jpg||DVD - Midia Fisica Completa");
@@ -425,7 +427,7 @@ SQL_setItem("Mestre dos Desejos 4", "https://bresodev.github.io/Gerenciador-de-F
 SQL_setItem("MidnightMan - O Agente Especial (1997)", "https://m.media-amazon.com/images/M/MV5BYWM5YWI2ZDEtOTlkNi00NjkwLTlhNmItM2I5NjY5NTFmMTUxXkEyXkFqcGc@._V1_.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
 SQL_setItem("Midsommar", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Midsommar.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Minotauro - 2006", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Minotauro - 2006.jpg||DVD - Apenas Midia Digital");
-SQL_setItem("Monstro do Armario", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Monstro do Armario.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("Monstro do Armario", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Monstro do Armario.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("Mortal Kombat O Eterno Kombat (1998)", "https://d2u9hui909q9sw.cloudfront.net/loja/arquivos_loja/1579/Fotos/thumbs3/produto_Foto1_1715579.jpg?cache=||VHS - Fita Completa");
 SQL_setItem("Mortal Kombat: The Journey Begins (1995)", "https://i.ebayimg.com/images/g/eREAAOxyxpxQ9Lle/s-l640.jpg||VHS - Fita Completa");
 SQL_setItem("Morte Morte Morte", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Morte Morte Morte.jpg||DVD - Apenas Midia Digital");
@@ -489,12 +491,13 @@ SQL_setItem("O Crematorio", "https://bresodev.github.io/Gerenciador-de-Filmes/ca
 SQL_setItem("O Culto - 2017", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Culto - 2017.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Cão do Diabo - 1978", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Cão do Diabo - 1978.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Demolidor (1993)", "https://m.media-amazon.com/images/M/MV5BZDc1ZDdhZGQtZjJmOC00MWYyLTg0NDYtN2VkYjNmNzZiMzI4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg|Nivel de mofo: 5|VHS - Fita Mofada");
+SQL_setItem("O Demônio que Habita em Mim", "https://static.wikia.nocookie.net/dublagem/images/9/9d/O_Dem%C3%B4nio_que_Habita_em_Mim.png/revision/latest?cb=20260217134148&path-prefix=pt-br||DVD - Midia Fisica Sem Nada");
 SQL_setItem("O Dentista 1", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Dentista 1.jpg||DVD - Midia Fisica Completa");
 SQL_setItem("O Dentista 2", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Dentista 2.jpg||DVD - Midia Fisica Sem Nada");
-SQL_setItem("O Despertar da Besta", "https://m.media-amazon.com/images/M/MV5BMTAwNjA0NTE5NjleQTJeQWpwZ15BbWU3MDU1MTAxMjE@._V1_.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("O Despertar da Besta", "https://m.media-amazon.com/images/M/MV5BMTAwNjA0NTE5NjleQTJeQWpwZ15BbWU3MDU1MTAxMjE@._V1_.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("O Discipulo de Dracula", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Discipulo de Dracula.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Encantador de Cavalos", "https://br.web.img3.acsta.net/medias/nmedia/18/94/83/44/20360009.jpg||VHS - Fita Completa");
-SQL_setItem("O Enigma do Outro Mundo", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Enigma do Outro Mundo.jpg||DVD - Apenas Midia Digital");
+SQL_setItem("O Enigma do Outro Mundo", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Enigma do Outro Mundo.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("O Espírito do Crime (1998)", "https://media.fstatic.com/pnkONfRgU_ZWtFD0w3CPgxTF27I=/350x525/smart/filters:format(webp)/media/movies/covers/2018/01/19800743_1420220338072634_1783039098947548125_o_SMuWmyQ.jpg|Nivel de mofo: 1|VHS - Fita Mofada");
 SQL_setItem("O Exorcismo de Emily Rose", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Exorcismo de Emily Rose.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("O Exorcista - O Devoto 2023", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Exorcista - O Devoto 2023.jpg||DVD - Midia Fisica Sem Nada");
@@ -504,7 +507,7 @@ SQL_setItem("O Exorcista 3", "https://bresodev.github.io/Gerenciador-de-Filmes/c
 SQL_setItem("O Exorcista 4", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Exorcista 4.jpg||DVD - Midia Fisica Sem Nada");
 SQL_setItem("O Exorcista do Papa", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Exorcista do Papa.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Exterminador Ninja", "https://http2.mlstatic.com/D_NQ_NP_813325-MLB25429013497_032017-O.webp|Nivel de mofo: 1|VHS - Fita Mofada");
-SQL_setItem("O Extranho Mundo de Zé do Caixão", "https://retroteca.org/wp-content/uploads/2025/05/doXlYEBwxZPZY7fLxSinsu31ceh.jpg||DVD - Midia Fisica Sem Nada");
+SQL_setItem("O Extranho Mundo de Zé do Caixão", "https://tse3.mm.bing.net/th/id/OIP.4ClywVFoXOnqAh7cATIoKQAAAA?rs=1&pid=ImgDetMain&o=7&rm=3||DVD - Midia Fisica Sem Nada");
 SQL_setItem("O Fantasma da Opera 1962", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Fantasma da Opera 1962.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Farol", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Farol.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("O Filho de Frankenstein - 1939", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/O Filho de Frankenstein - 1939.jpg||DVD - Apenas Midia Digital");
@@ -799,7 +802,7 @@ SQL_setItem("Uma Vida de Rei (1989)", "https://media.fstatic.com/WwLrzDSX4Vm09rm
 SQL_setItem("Vamos a Matar Companheiros (1970)", "https://m.media-amazon.com/images/M/MV5BMTUzOTkyOTY5NV5BMl5BanBnXkFtZTgwMDEwNDQ5NDE@._V1_.jpg|Nivel de mofo: 1|VHS - Fita Mofada");
 SQL_setItem("Vertigo 1958", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Vertigo 1958.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Verónica - 2017", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Verónica - 2017.jpg||DVD - Apenas Midia Digital");
-SQL_setItem("Vestida Para Matar ", "https://cinema10.com.br/upload/featuredImage.php?url=https%3A%2F%2Fcinema10.com.br%2Fupload%2Ffilmes%2Ffilmes_5023_Vestida.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
+SQL_setItem("Vestida Para Matar ", "https://www.justwatch.com/images/poster/194101967/s718/vestida-para-matar.jpg|Nivel de mofo: 2|VHS - Fita Mofada");
 SQL_setItem("Vestida Para Matar (1980)", "https://http2.mlstatic.com/D_NQ_NP_955206-MLB85676409972_062025-O.webp|Nivel de mofo: 2|VHS - Fita Mofada");
 SQL_setItem("Viagem Maldita 1 - 2006", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Viagem Maldita 1 - 2006.jpg||DVD - Apenas Midia Digital");
 SQL_setItem("Viagem Maldita 2 - 2007", "https://bresodev.github.io/Gerenciador-de-Filmes/capas/Viagem Maldita 2 - 2007.jpg||DVD - Apenas Midia Digital");
