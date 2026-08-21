@@ -1,339 +1,156 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Galeria de Filmes</title>
-        <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: #111;
-      color: #eee;
-    }
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collector • Galeria de Filmes</title>
+<link rel="stylesheet" href="modern.css">
+<style>
+  body{display:block!important}
+  .legacy-shell{max-width:1480px;margin:0 auto;padding:0 22px 50px}
+  .hero{padding:34px 0 24px;display:flex;align-items:flex-end;justify-content:space-between;gap:20px}
+  .hero small{display:block;color:#ff5a7b;text-transform:uppercase;letter-spacing:.15em;font-weight:800;font-size:.72rem;margin-bottom:8px}
+  .hero h1{font-size:clamp(2rem,5vw,3.4rem);letter-spacing:-.055em;margin:0}
+  .hero p{color:#8f9bad;margin:7px 0 0;max-width:620px}
+  .topo{background:rgba(16,21,31,.9)!important;border:1px solid rgba(255,255,255,.075)!important;border-radius:20px;padding:18px!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;box-shadow:0 20px 55px rgba(0,0,0,.22)}
+  .topo #Categoria,.topo #Observacoes{grid-column:span 1}
+  .topo .botoes,.topo hr,.topo #Busca{grid-column:1/-1}
+  .media-title{display:flex;align-items:center;gap:11px;margin:36px 0 12px}
+  .media-title i{width:8px;height:8px;background:#ff315d;border-radius:50%;box-shadow:0 0 20px #ff315d}
+  .media-title h2{margin:0;font-size:1.2rem}
+  .galeria{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))!important}
+  @media(max-width:650px){.topo{grid-template-columns:1fr!important}.topo>*{grid-column:1!important}.legacy-shell{padding:0 14px 40px}.hero{padding-top:24px}}
+</style>
+</head>
+<body>
+<div id="dev"></div>
+<div class="legacy-shell">
+  <header class="hero">
+    <div>
+      <small>Minha coleção</small>
+      <h1>Collector</h1>
+      <p>Organize sua coleção de DVD e VHS em uma galeria mais limpa, rápida e visual.</p>
+    </div>
+  </header>
 
-    textarea {
-      width: 85vw;
-      border-radius: 3px;
-      background-color: #666;
-      height: 90vh;
-      color: #eee;
-    }
-     
+  <div class="topo">
+    <input id="Nome" type="text" placeholder="Nome do filme">
+    <input id="Capa" type="text" placeholder="Capa do filme">
+    <select id="Categoria">
+      <option>DVD - Apenas Midia Digital</option>
+      <option>DVD - ISO Pronto</option>
+      <option>DVD - Midia Fisica Sem Nada</option>
+      <option>DVD - Midia Fisica Com Capa</option>
+      <option>DVD - Midia Fisica Completa</option>
+      <option>VHS - Fita sem estojo</option>
+      <option>VHS - Fita com Estojo e Sem Encarte</option>
+      <option>VHS - Fita Completa</option>
+      <option>VHS - Fita Mofada</option>
+    </select>
+    <input id="Observacoes" type="text" placeholder="Observações">
+    <div class="botoes">
+      <button id="Criar" class="btn-criar">Criar</button>
+      <button id="Salvar" class="btn-salvar">Salvar</button>
+      <button id="Apagar" class="btn-apagar">Apagar</button>
+    </div>
+    <hr>
+    <input id="Busca" type="text" placeholder="Buscar na coleção">
+  </div>
 
-    /* TOPO */
-    .topo {
-      background-color: #1c1c1c;
-      padding: 15px;
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 8px;
-      border-bottom: 2px solid #333;
-    }
+  <div id="erro" style="display:none">
+    <h2>Código para corrigir um erro encontrado:</h2>
+    <button id="fixxxx" class="btn-criar">Executar correção</button>
+    <textarea id="erroT"></textarea>
+  </div>
 
-    .topo input,
-    .topo select {
-      padding: 8px;
-      border: none;
-      border-radius: 4px;
-      background-color: #2b2b2b;
-      color: #fff;
-    }
+  <div id="menuDEV" style="display:none">
+    <center>
+      <button id="evalDEV" class="btn-criar">Executar código</button>
+      <button id="obterDB" class="btn-criar">Obter DB</button>
+      <button id="copiarDB" class="btn-criar">Copiar código</button>
+      <br><br>
+      <button id="gerarPlanilha" class="btn-criar">Gerar Planilha Completa</button>
+      <button id="gerarPlanilhaDVD" class="btn-criar">Gerar Planilha DVD</button>
+      <button id="gerarPlanilhaVHS" class="btn-criar">Gerar Planilha VHS</button>
+      <br><br>
+      <textarea id="devTextarea"></textarea>
+    </center>
+  </div>
 
-    .botoes {
-      display: flex;
-      gap: 10px;
-      margin-top: 5px;
-    }
+  <div class="media-title"><i></i><h2>VHS</h2></div>
+  <div id="galeriaVHS" class="galeria"></div>
+  <div class="media-title"><i></i><h2>DVD</h2></div>
+  <div id="galeriaDVD" class="galeria"></div>
+</div>
 
-    .botoes button {
-      flex: 1;
-      padding: 10px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      font-weight: bold;
-    }
+<script>
+const script = document.createElement("script");
+script.src = "libV2.js?v=" + new Date().getTime();
+document.head.appendChild(script);
+</script>
+<script>
+const btCriar = document.getElementById('Criar')
+const btSalvar = document.getElementById('Salvar')
+const btApagar = document.getElementById('Apagar')
 
-    .btn-criar {
-      background-color: rgb(60, 113, 245);
-      color: #fff;
-    }
+const fixxxx = document.getElementById('fixxxx')
+fixxxx.addEventListener('click', () => {
+  eval(document.getElementById('erroT').value)
+  setTimeout(() => { window.location.reload() }, 3000);
+})
 
-    .btn-salvar {
-      background-color: #2e7d32;
-      color: #fff;
-    }
+const dev = document.getElementById('dev')
+dev.addEventListener('click', () => {
+  document.getElementById('menuDEV').style.display = 'block'
+  document.getElementById('galeriaVHS').style.display = 'none'
+  document.getElementById('galeriaDVD').style.display = 'none'
+})
+document.getElementById('gerarPlanilha').addEventListener('click',()=>{ SQL_gerarPlanilha() })
+document.getElementById('gerarPlanilhaDVD').addEventListener('click',()=>{ SQL_gerarPlanilha('DVD') })
+document.getElementById('gerarPlanilhaVHS').addEventListener('click',()=>{ SQL_gerarPlanilha('VHS') })
+document.getElementById('obterDB').addEventListener('click',()=>{ SQL_getAllItens() })
+document.getElementById('copiarDB').addEventListener('click',()=>{
+  const textarea = document.getElementById("devTextarea");
+  navigator.clipboard.writeText(textarea.value).then(()=>console.log("Texto copiado!")).catch(err=>console.error("Erro ao copiar:",err));
+})
+document.getElementById('evalDEV').addEventListener('click',()=>{
+  try{
+    eval(document.getElementById('devTextarea').value)
+    setTimeout(()=>{window.location.reload()},3000);
+  }catch(error){}
+})
 
-    .btn-apagar {
-      background-color: #b71c1c;
-      color: rgb(254, 254, 254);
-    }
+const Busca = document.getElementById('Busca')
+Busca.addEventListener('input', () => { reloadCapas(Busca.value) })
 
-    .botoes button:hover {
-      opacity: 0.85;
-    }
-
-    /* GALERIA */
-    .galeria {
-      padding: 20px;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-      gap: 15px;
-    }
-
-    .filme {
-      background-color: #1c1c1c;
-      border-radius: 3px;
-      overflow: hidden;
-      text-align: center;
-      cursor: pointer;
-      transition: transform 0.2s;
-    }
-
-    .filme:hover {
-      transform: scale(1.05);
-    }
-
-    .filme img {
-      width: 90%;
-      height: 150px;
-      object-fit: cover;
-      display: block;
-    }
-
-    .filme span {
-      display: block;
-      padding: 6px;
-      font-size: 14px;
-    }
-    #Observacoes{
-      height: 30px;
-    }
-
-    table,td,td,th{
-      border: 1px solid white;
-      font-size: 15px;
-    }
-    table{
-      width: 90vw;
-    }
-        </style>
-    </head>
-    <body>
-        <br>
-        <div id="dev" style="height:10px;background-color: #666;"></div>
-        <br>
-        <!-- TOPO / CADASTRO -->
-        <div class="topo">
-            <input id="Nome" type="text" placeholder="Nome do filme">
-            <input id="Capa" type="text" placeholder="Capa do filme">
-            <select id="Categoria">
-                <option>DVD - Apenas Midia Digital</option>
-                <option>DVD - ISO Pronto</option>
-                <option>DVD - Midia Fisica Sem Nada</option>
-                <option>DVD - Midia Fisica Com Capa</option>
-                <option>DVD - Midia Fisica Completa</option>
-                <option>VHS - Fita sem estojo</option>
-                <option>VHS - Fita com Estojo e Sem Encarte</option>
-                <option>VHS - Fita Completa</option>
-                <option>VHS - Fita Mofada</option>
-            </select>
-            <input id="Observacoes" type="text" placeholder="Observações">
-            <div class="botoes">
-                <button id="Criar" class="btn-criar">Criar</button>
-                <button id="Salvar" class="btn-salvar">Salvar</button>
-                <button id="Apagar" class="btn-apagar">Apagar</button>
-            </div>
-            <hr>
-            <input id="Busca" type="text" placeholder="Buscar filme">
-        </div>
-        <!------Sessao que exibe erros para tratar----------------------->
-        <div id="erro" style="display:none">
-            <h2>Codigo pra corrigir um erro encontrado:</h2>
-            <br>
-            <button id="fixxxx" class="btn-criar">Executar correcao</button>
-            <br>
-            <br>
-            <textarea
-                name=""
-                id="erroT"
-                cols="30"
-                rows="10"
-            ></textarea>
-            <br>
-        </div>
-        <!------Menu DEV----------------------->
-        <!------style="display:none"----------------------->
-        <div id="menuDEV" style="display:none">
-            <center>
-                <br>
-                <br>
-                <button id="evalDEV" class="btn-criar" style="padding:5px;border-radius: 5px;">Executar Codigo</button>
-                <button id="obterDB" class="btn-criar" style="padding:5px;border-radius: 5px;">Obter DB</button>
-                <button id="copiarDB" class="btn-criar" style="padding:5px;border-radius: 5px;">Copiar codigo</button>
-                <br>
-                <br>
-                <button id="gerarPlanilha" class="btn-criar" style="padding:5px;border-radius: 5px;">Gerar Planilha Completa</button>
-                <button id="gerarPlanilhaDVD" class="btn-criar" style="padding:5px;border-radius: 5px;">Gerar Planilha DVD</button>
-                <button id="gerarPlanilhaVHS" class="btn-criar" style="padding:5px;border-radius: 5px;">Gerar Planilha VHS</button>
-                <br>
-                <br>
-                <textarea
-                    name=""
-                    id="devTextarea"
-                    cols="30"
-                    rows="10"
-                ></textarea>
-                <br>
-            </center>
-        </div>
-        <!----------------------------->
-        <!-- GALERIA -->
-        <center>
-            <h2>VHS</h2>
-        </center>
-        <div id="galeriaVHS" class="galeria"></div>
-        <center>
-            <h2>DVD</h2>
-        </center>
-        <div id="galeriaDVD" class="galeria"></div>
-    </body>
-    <script>
-      const script = document.createElement("script");
-      script.src = "libV2.js?v=" + new Date().getTime();
-      document.head.appendChild(script);
-    </script>
-    <script>
-
-
-
-  const btCriar = document.getElementById('Criar')
-  const btSalvar = document.getElementById('Salvar')
-  const btApagar = document.getElementById('Apagar')
-  
-
-
-  //--------------------------
-  const fixxxx = document.getElementById('fixxxx')
-  fixxxx.addEventListener('click', () => {
-    eval(document.getElementById('erroT').value)
-    setTimeout(() => {
-      window.location.reload()
-    }, 3000);
-  })  
-  //--------------------------
-
-
-
-
-  const dev = document.getElementById('dev')
-  dev.addEventListener('click', () => { 
-   document.getElementById('menuDEV').style.display = 'block'
-
-   document.getElementById('galeriaVHS').style.display = 'none'
-   document.getElementById('galeriaDVD').style.display = 'none'
-
-  }) 
-
-  document.getElementById('gerarPlanilha').addEventListener('click',()=>{
-        SQL_gerarPlanilha() 
-      })
-  document.getElementById('gerarPlanilhaDVD').addEventListener('click',()=>{
-        SQL_gerarPlanilha('DVD') 
-      })
-  document.getElementById('gerarPlanilhaVHS').addEventListener('click',()=>{
-        SQL_gerarPlanilha('VHS') 
-      })
-
-      document.getElementById('obterDB').addEventListener('click',()=>{
-        SQL_getAllItens() 
-      })
-
-      document.getElementById('copiarDB').addEventListener('click',()=>{
-        
-        const textarea = document.getElementById("devTextarea");
-  
-        navigator.clipboard.writeText(textarea.value)
-          .then(() => {
-            console.log("Texto copiado!");
-          })
-          .catch(err => {
-            console.error("Erro ao copiar:", err);
-          });
-
-
-      })
-
-      document.getElementById('evalDEV').addEventListener('click',()=>{
-        try {
-          eval(document.getElementById('devTextarea').value)
-          setTimeout(() => {
-            window.location.reload()
-          }, 3000);
-        } catch (error) {
-          
-        }
-      })
-  
-  //--------------------------
-
-
-
-  const Busca = document.getElementById('Busca') 
-  Busca.addEventListener('input', () => {
-
-    reloadCapas(Busca.value)
-
-  })
-  ///===============================
-
-
-  btCriar.addEventListener('click', () => {
-
-    const Observacoes = document.getElementById('Observacoes').value
-    const Capadofilme = document.getElementById('Capa').value
-    const Nomedofilme = document.getElementById('Nome').value
-    const Categoria = document.getElementById('Categoria').value
-
-
-
-    SQL_setItem(Nomedofilme, Capadofilme + '|' + Observacoes + '|' + Categoria)
-    addCapa(Nomedofilme, Capadofilme + '|' + Observacoes + '|' + Categoria)
-
-
-    setTimeout(() => {
+btCriar.addEventListener('click', () => {
+  const Observacoes = document.getElementById('Observacoes').value
+  const Capadofilme = document.getElementById('Capa').value
+  const Nomedofilme = document.getElementById('Nome').value
+  const Categoria = document.getElementById('Categoria').value
+  SQL_setItem(Nomedofilme, Capadofilme + '|' + Observacoes + '|' + Categoria)
+  addCapa(Nomedofilme, Capadofilme + '|' + Observacoes + '|' + Categoria)
+  setTimeout(() => {
     document.getElementById('Observacoes').value=""
     document.getElementById('Capa').value=""
     document.getElementById('Nome').value=""
     document.getElementById('Categoria').value=""
-    }, 3000);
-  })
+  }, 3000);
+})
 
+btApagar.addEventListener('click', () => {
+  const Nomedofilme = document.getElementById('Nome').value
+  SQL_delete(Nomedofilme)
+  reloadCapas()
+})
 
-  btApagar.addEventListener('click', () => {
-
-    const Nomedofilme = document.getElementById('Nome').value
-
-    SQL_delete(Nomedofilme)
-    reloadCapas()
-
-  })
-
-
-  btSalvar.addEventListener('click', () => {
-
-    const Observacoes = document.getElementById('Observacoes').value
-    const Capadofilme = document.getElementById('Capa').value
-    const Nomedofilme = document.getElementById('Nome').value
-    const Categoria = document.getElementById('Categoria').value
-
-
-    SQL_updateItem(Nomedofilme, Capadofilme + '|' + Observacoes + '|' + Categoria)
-
-    //addCapa(Nomedofilme + '|' + Capadofilme + '|' + Observacoes + '|' + Categoria)
-
-
-  })
-    </script>
+btSalvar.addEventListener('click', () => {
+  const Observacoes = document.getElementById('Observacoes').value
+  const Capadofilme = document.getElementById('Capa').value
+  const Nomedofilme = document.getElementById('Nome').value
+  const Categoria = document.getElementById('Categoria').value
+  SQL_updateItem(Nomedofilme, Capadofilme + '|' + Observacoes + '|' + Categoria)
+})
+</script>
+</body>
 </html>
